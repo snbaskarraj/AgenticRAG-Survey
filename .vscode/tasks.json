@@ -2,18 +2,22 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Run Everpure chat app",
+      "label": "Run Everpure chat app (Streamlit)",
       "type": "shell",
       "command": "./run.sh",
-      "options": {
-        "cwd": "${workspaceFolder}/everpuresep32026"
-      },
+      "options": { "cwd": "${workspaceFolder}/everpuresep32026" },
       "isBackground": true,
       "problemMatcher": [],
-      "presentation": {
-        "reveal": "always",
-        "panel": "dedicated"
-      }
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
+      "label": "Run Everpure chat app (Gradio)",
+      "type": "shell",
+      "command": "./run_gradio.sh",
+      "options": { "cwd": "${workspaceFolder}/everpuresep32026" },
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
     }
   ]
 }

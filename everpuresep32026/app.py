@@ -16,19 +16,10 @@ if str(SRC) not in sys.path:
 from finagent.agent import FinanceAgent  # noqa: E402
 from finagent.config import active_provider  # noqa: E402
 from finagent.prompts import greeting  # noqa: E402
+from finagent.samples import SAMPLE_QUESTIONS  # noqa: E402
 from finagent.store import DataStore  # noqa: E402
 
 st.set_page_config(page_title="AetherData Finance Agent", page_icon="◈", layout="wide")
-
-SAMPLE_QUESTIONS = [
-    "What was the revenue in Q1 FY2026?",
-    "How has ARR trended over the last 8 quarters?",
-    "Which metrics look anomalous in FY2025 and FY2026?",
-    "Why did win rate drop in Q4 FY2025?",
-    "Compare Enterprise vs Cloud revenue in FY2026.",
-    "What happened to churn after the FY2026 price increase?",
-    "Which events most likely explain the FY2026 Q3 revenue dip?",
-]
 
 
 def _inject_css() -> None:
@@ -204,10 +195,13 @@ def main() -> None:
 
             **Minimum requirements coverage**
 
-            - Chat UI: this Streamlit app
+            - Chat UI: this Streamlit app (Cursor default) or `gradio_app.py`
             - LLM-powered backend: OpenAI or Anthropic tool calling when an API key is present
             - Data query / analysis mechanism: `query_metrics`, `analyze_trend`, `detect_anomalies`, `search_events`, `explain_change`
-            - Grounded answers: the system prompt forbids invented numbers; offline mode renders tool results directly
+            - Grounded answers: the system prompt forbids invented numbers; every answer is built from tool results
+
+            See `docs/SDLC.md` and `docs/SETUP.md`. The Colab walkthrough is
+            `notebooks/Everpure_Agentic_Finance_Agent.ipynb`.
 
             **Why these two datasets**
 

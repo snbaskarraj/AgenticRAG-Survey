@@ -2,7 +2,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Everpure Finance Agent",
+      "name": "Everpure Finance Agent (Streamlit)",
       "type": "debugpy",
       "request": "launch",
       "module": "streamlit",
@@ -10,6 +10,17 @@
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "jinja": true,
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/src"
+      }
+    },
+    {
+      "name": "Everpure Finance Agent (Gradio)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/gradio_app.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
       "env": {
         "PYTHONPATH": "${workspaceFolder}/src"
       }

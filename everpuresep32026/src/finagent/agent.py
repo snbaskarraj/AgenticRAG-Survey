@@ -3,22 +3,14 @@
 from __future__ import annotations
 
 import json
-from dataclasses import dataclass, field
 from typing import Any
 
 from . import config
 from .fallback import OfflinePlanner
 from .prompts import SYSTEM_PROMPT
+from .schemas import AgentResponse
 from .store import DataStore
 from .tools import TOOL_SCHEMAS, ToolBox, dump_tool_result
-
-
-@dataclass
-class AgentResponse:
-    answer: str
-    traces: list[dict[str, Any]] = field(default_factory=list)
-    provider: str = "offline"
-    model: str | None = None
 
 
 class FinanceAgent:

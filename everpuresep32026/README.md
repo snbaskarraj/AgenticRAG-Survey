@@ -1,35 +1,47 @@
-# Everpure Sep 3 2026 — Finance Analyst Agent
+# Everpure Sep 3 2026 — Agentic Finance Analyst
 
-Standalone project for the Everpure hands-on Agentic AI exercise.
+Conversational agent for the Everpure hands-on exercise. It answers
+questions about two fictional datasets and stays grounded in those files.
 
-A chat UI talks to an analyst agent. The agent can only see the business
-data through tools, so answers stay grounded in two fictional datasets:
+| Requirement | Where it lives |
+| --- | --- |
+| Simple chat UI | Streamlit (`app.py`) in Cursor · Gradio (`gradio_app.py`) in Colab |
+| LLM-powered backend | `src/finagent/agent.py` (OpenAI or Anthropic tool calling) |
+| Query / analyze data | `query_metrics`, `analyze_trend`, `detect_anomalies`, `search_events`, `explain_change` |
+| Grounded answers | The model never sees the raw CSVs; tools compute every number |
 
-- `data/metrics.csv` — monthly KPIs
-- `data/events.csv` — business events on the same fiscal calendar
+## Execute
 
-## Run in Cursor
+Read **[docs/SETUP.md](docs/SETUP.md)** for the full runbook.
 
-1. Open this folder (`everpuresep32026`) as the project.
-2. Install once if needed: `pip install -r requirements.txt`
-3. Start the chat app from **this folder**:
-   - Terminal: `./run.sh`
-   - From the repo root: `./everpuresep32026/run.sh`
-   - Command Palette → **Tasks: Run Task** → **Run chat app**
-   - Run and Debug → **Everpure Finance Agent**
-
-Do not `cd everpuresep32026` again if the prompt already shows `everpuresep32026 $`.
-If port 8501 is already in use, `./run.sh` reuses that server instead of failing.
-
-The UI is at [http://localhost:8501](http://localhost:8501).
-
-CLI from this folder:
+**Cursor (best local path — Streamlit)**
 
 ```bash
-python3 ask.py "What was the revenue in Q1 FY2026?"
-python3 ask.py "Why did win rate drop in Q4 FY2025?" --show-traces
-python3 -m pytest -q
+./run.sh
+# open http://localhost:8501
 ```
+
+**Cursor alternate UI — Gradio**
+
+```bash
+./run_gradio.sh
+# open http://localhost:7860
+```
+
+**Google Colab (diagrams + multiple frameworks)**
+
+Open [`notebooks/Everpure_Agentic_Finance_Agent.ipynb`](notebooks/Everpure_Agentic_Finance_Agent.ipynb)
+and Runtime → Run all.
+
+Do not execute `.vscode/launch.json` in a terminal. Use **Run and Debug**.
+
+## Documents
+
+| Doc | Purpose |
+| --- | --- |
+| [docs/SETUP.md](docs/SETUP.md) | How to run Cursor, Gradio, Colab, and swap interview files |
+| [docs/SDLC.md](docs/SDLC.md) | Requirements → design → implementation → tests → demo |
+| [docs/EMAIL_RECEIPT.md](docs/EMAIL_RECEIPT.md) | Reply confirming receipt of Anurag’s email |
 
 ## Sample questions
 
@@ -37,38 +49,25 @@ python3 -m pytest -q
 - How has ARR trended over the last 8 quarters?
 - Which metrics look anomalous in FY2025 and FY2026?
 - Why did win rate drop in Q4 FY2025?
-- Compare Enterprise vs Cloud revenue in FY2026.
-- What happened to churn after the FY2026 price increase?
-- Which events most likely explain the FY2026 Q3 revenue dip?
 
-## LLM vs offline
-
-The app runs without an API key using the same analysis tools.
-
-| Mode | When | Behavior |
-| --- | --- | --- |
-| Offline | no key | Deterministic planner + tools |
-| OpenAI | `OPENAI_API_KEY` | Tool-calling loop |
-| Anthropic | only `ANTHROPIC_API_KEY` | Tool-calling loop |
-
-Copy `.env.example` to `.env` to switch providers.
+Q1 FY2026 revenue in the synthetic set is **$118.0M**.
 
 ## Architecture
 
 ```
-Chat UI (Streamlit)
+Chat UI (Streamlit in Cursor, Gradio in Colab)
         │
         ▼
 FinanceAgent ── OpenAI / Anthropic tool loop
-        │        or offline deterministic planner
+        │        or offline planner if no API key
         ▼
-ToolBox  (query, trend, anomaly, events, explain)
+ToolBox
         │
         ▼
 DataStore  ← metrics.csv + events.csv
 ```
 
-Fiscal year starts February 1. Q1 FY2026 is Feb–Apr 2025.
+Fiscal year starts 1 February. Q1 FY2026 = Feb–Apr 2025.
 
-When the interview sample files arrive, replace `data/metrics.csv` and
-`data/events.csv`, or set `FINAGENT_DATA_DIR`. Column names are aliased.
+When the interview CSVs arrive, replace `data/metrics.csv` and
+`data/events.csv` (column names are aliased).

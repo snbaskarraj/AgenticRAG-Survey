@@ -1,4 +1,6 @@
+from finagent.agent import FinanceAgent
 from finagent.fallback import OfflinePlanner
+from finagent.schemas import AgentResponse
 from finagent.store import DataStore
 from finagent.tools import ToolBox
 
@@ -44,6 +46,13 @@ def test_explain_change_links_competitor_event():
     assert result["current_value"] == 19.5
     titles = " ".join(event["title"] for event in result["nearby_events"])
     assert "NimbusBlock" in titles
+
+
+def test_agent_response_is_pydantic_and_grounded():
+    response = FinanceAgent(DataStore()).ask("What was the revenue in Q1 FY2026?")
+    assert isinstance(response, AgentResponse)
+    assert response.requirement_check()["used_data_tool"] is True
+    assert "118" in response.answer
 
 
 def test_offline_planner_answers_q1_fy2026_revenue():

@@ -1,6 +1,6 @@
 # Agentic Retrieval-Augmented Generation : A Survey On Agentic RAG
 
-> **Hands-on app:** open the Cursor project [`everpuresep32026/`](./everpuresep32026/README.md) (or `everpuresep32026.code-workspace`). Run `./run.sh` or the **Everpure Finance Agent** launch config, then ask *What was the revenue in Q1 FY2026?* at http://localhost:8501.
+> **Hands-on app:** [`everpuresep32026/`](./everpuresep32026/README.md). Cursor: `./run.sh` (Streamlit, http://localhost:8501). Alternate UI: `./run_gradio.sh` (http://localhost:7860). Walkthrough: [`everpuresep32026/notebooks/Everpure_Agentic_Finance_Agent.ipynb`](./everpuresep32026/notebooks/Everpure_Agentic_Finance_Agent.ipynb). Setup: [`docs/SETUP.md`](./everpuresep32026/docs/SETUP.md).
 
 
 <p align="center">

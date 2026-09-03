@@ -2,29 +2,28 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Run chat app",
+      "label": "Run chat app (Streamlit)",
       "type": "shell",
-      "command": "python3 -m streamlit run app.py --server.headless true --server.port 8501",
-      "options": {
-        "cwd": "${workspaceFolder}",
-        "env": {
-          "PYTHONPATH": "${workspaceFolder}/src"
-        }
-      },
+      "command": "./run.sh",
+      "options": { "cwd": "${workspaceFolder}" },
       "isBackground": true,
       "problemMatcher": [],
-      "presentation": {
-        "reveal": "always",
-        "panel": "dedicated"
-      }
+      "presentation": { "reveal": "always", "panel": "dedicated" }
+    },
+    {
+      "label": "Run chat app (Gradio)",
+      "type": "shell",
+      "command": "./run_gradio.sh",
+      "options": { "cwd": "${workspaceFolder}" },
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "reveal": "always", "panel": "dedicated" }
     },
     {
       "label": "Run tests",
       "type": "shell",
       "command": "python3 -m pytest -q",
-      "options": {
-        "cwd": "${workspaceFolder}"
-      },
+      "options": { "cwd": "${workspaceFolder}" },
       "problemMatcher": []
     }
   ]
