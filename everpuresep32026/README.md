@@ -12,10 +12,14 @@ data through tools, so answers stay grounded in two fictional datasets:
 
 1. Open this folder (`everpuresep32026`) as the project.
 2. Install once if needed: `pip install -r requirements.txt`
-3. Start the chat app in any of these ways:
-   - Terminal: `./run.sh` or `python3 -m streamlit run app.py`
+3. Start the chat app from **this folder**:
+   - Terminal: `./run.sh`
+   - From the repo root: `./everpuresep32026/run.sh`
    - Command Palette → **Tasks: Run Task** → **Run chat app**
    - Run and Debug → **Everpure Finance Agent**
+
+Do not `cd everpuresep32026` again if the prompt already shows `everpuresep32026 $`.
+If port 8501 is already in use, `./run.sh` reuses that server instead of failing.
 
 The UI is at [http://localhost:8501](http://localhost:8501).
 
