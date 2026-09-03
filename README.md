@@ -1,6 +1,6 @@
 # Agentic Retrieval-Augmented Generation : A Survey On Agentic RAG
 
-> **Hands-on app:** the Everpure interview finance agent lives in [`finance_agent/`](./finance_agent/README.md). Run `streamlit run finance_agent/app.py` and ask questions such as *What was the revenue in Q1 FY2026?*
+> **Hands-on app:** open the Cursor project [`everpuresep32026/`](./everpuresep32026/README.md) (or `everpuresep32026.code-workspace`). Run `./run.sh` or the **Everpure Finance Agent** launch config, then ask *What was the revenue in Q1 FY2026?* at http://localhost:8501.
 
 
 <p align="center">

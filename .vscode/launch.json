@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Everpure Finance Agent",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "streamlit",
+      "args": [
+        "run",
+        "${workspaceFolder}/everpuresep32026/app.py",
+        "--server.headless",
+        "true",
+        "--server.port",
+        "8501"
+      ],
+      "cwd": "${workspaceFolder}/everpuresep32026",
+      "console": "integratedTerminal",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/everpuresep32026/src"
+      }
+    }
+  ]
+}

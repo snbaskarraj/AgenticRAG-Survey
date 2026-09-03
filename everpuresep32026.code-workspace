@@ -1,0 +1,26 @@
+{
+  "folders": [
+    {
+      "name": "everpuresep32026",
+      "path": "everpuresep32026"
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "python3",
+    "python.analysis.extraPaths": ["everpuresep32026/src"]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Everpure Finance Agent",
+        "type": "debugpy",
+        "request": "launch",
+        "module": "streamlit",
+        "args": ["run", "app.py", "--server.headless", "true", "--server.port", "8501"],
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal"
+      }
+    ]
+  }
+}

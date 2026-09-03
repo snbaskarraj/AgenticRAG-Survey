@@ -1,0 +1,721 @@
+period,fiscal_year,fiscal_quarter,fiscal_period,segment,metric_name,metric_value,unit,metric_kind,description
+2023-02,2024,Q1,Q1 FY2024,Company,revenue_usd,19040000.0,USD,flow,Recognized product and subscription revenue
+2023-02,2024,Q1,Q1 FY2024,Company,arr_usd,292000000.0,USD,stock,Ending annual recurring revenue
+2023-02,2024,Q1,Q1 FY2024,Enterprise,revenue_usd,11424000.0,USD,flow,Recognized product and subscription revenue
+2023-02,2024,Q1,Q1 FY2024,Enterprise,arr_usd,175200000.0,USD,stock,Ending annual recurring revenue
+2023-02,2024,Q1,Q1 FY2024,Mid-Market,revenue_usd,5140800.0,USD,flow,Recognized product and subscription revenue
+2023-02,2024,Q1,Q1 FY2024,Mid-Market,arr_usd,78840000.0,USD,stock,Ending annual recurring revenue
+2023-02,2024,Q1,Q1 FY2024,Cloud,revenue_usd,2475200.0,USD,flow,Recognized product and subscription revenue
+2023-02,2024,Q1,Q1 FY2024,Cloud,arr_usd,37960000.0,USD,stock,Ending annual recurring revenue
+2023-02,2024,Q1,Q1 FY2024,Company,new_logo_acv_usd,5040000.0,USD,flow,Annual contract value from new customers
+2023-02,2024,Q1,Q1 FY2024,Company,expansion_acv_usd,2520000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2023-02,2024,Q1,Q1 FY2024,Company,churned_arr_usd,1176000.0,USD,flow,ARR lost to logo churn and downsell
+2023-02,2024,Q1,Q1 FY2024,Company,nrr_pct,114.0,percent,rate,Net revenue retention
+2023-02,2024,Q1,Q1 FY2024,Company,gross_margin_pct,68.4,percent,rate,Gross margin
+2023-02,2024,Q1,Q1 FY2024,Company,opex_usd,11480000.0,USD,flow,Operating expenses
+2023-02,2024,Q1,Q1 FY2024,Company,ending_customers,410.0,count,stock,Ending customer count
+2023-02,2024,Q1,Q1 FY2024,Company,pipeline_usd,210000000.0,USD,stock,Qualified pipeline at period end
+2023-02,2024,Q1,Q1 FY2024,Company,win_rate_pct,27.0,percent,rate,Competitive win rate
+2023-02,2024,Q1,Q1 FY2024,Company,cac_usd,42000.0,USD,rate,Customer acquisition cost
+2023-02,2024,Q1,Q1 FY2024,Company,support_tickets,509.6,count,flow,Opened support tickets
+2023-02,2024,Q1,Q1 FY2024,Company,headcount,620.0,count,stock,Ending employee headcount
+2023-03,2024,Q1,Q1 FY2024,Company,revenue_usd,20400000.0,USD,flow,Recognized product and subscription revenue
+2023-03,2024,Q1,Q1 FY2024,Company,arr_usd,292000000.0,USD,stock,Ending annual recurring revenue
+2023-03,2024,Q1,Q1 FY2024,Enterprise,revenue_usd,12240000.0,USD,flow,Recognized product and subscription revenue
+2023-03,2024,Q1,Q1 FY2024,Enterprise,arr_usd,175200000.0,USD,stock,Ending annual recurring revenue
+2023-03,2024,Q1,Q1 FY2024,Mid-Market,revenue_usd,5508000.0,USD,flow,Recognized product and subscription revenue
+2023-03,2024,Q1,Q1 FY2024,Mid-Market,arr_usd,78840000.0,USD,stock,Ending annual recurring revenue
+2023-03,2024,Q1,Q1 FY2024,Cloud,revenue_usd,2652000.0,USD,flow,Recognized product and subscription revenue
+2023-03,2024,Q1,Q1 FY2024,Cloud,arr_usd,37960000.0,USD,stock,Ending annual recurring revenue
+2023-03,2024,Q1,Q1 FY2024,Company,new_logo_acv_usd,5400000.0,USD,flow,Annual contract value from new customers
+2023-03,2024,Q1,Q1 FY2024,Company,expansion_acv_usd,2700000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2023-03,2024,Q1,Q1 FY2024,Company,churned_arr_usd,1260000.0,USD,flow,ARR lost to logo churn and downsell
+2023-03,2024,Q1,Q1 FY2024,Company,nrr_pct,114.0,percent,rate,Net revenue retention
+2023-03,2024,Q1,Q1 FY2024,Company,gross_margin_pct,68.4,percent,rate,Gross margin
+2023-03,2024,Q1,Q1 FY2024,Company,opex_usd,12300000.0,USD,flow,Operating expenses
+2023-03,2024,Q1,Q1 FY2024,Company,ending_customers,410.0,count,stock,Ending customer count
+2023-03,2024,Q1,Q1 FY2024,Company,pipeline_usd,210000000.0,USD,stock,Qualified pipeline at period end
+2023-03,2024,Q1,Q1 FY2024,Company,win_rate_pct,27.0,percent,rate,Competitive win rate
+2023-03,2024,Q1,Q1 FY2024,Company,cac_usd,42000.0,USD,rate,Customer acquisition cost
+2023-03,2024,Q1,Q1 FY2024,Company,support_tickets,546.0,count,flow,Opened support tickets
+2023-03,2024,Q1,Q1 FY2024,Company,headcount,620.0,count,stock,Ending employee headcount
+2023-04,2024,Q1,Q1 FY2024,Company,revenue_usd,28560000.0,USD,flow,Recognized product and subscription revenue
+2023-04,2024,Q1,Q1 FY2024,Company,arr_usd,292000000.0,USD,stock,Ending annual recurring revenue
+2023-04,2024,Q1,Q1 FY2024,Enterprise,revenue_usd,17136000.0,USD,flow,Recognized product and subscription revenue
+2023-04,2024,Q1,Q1 FY2024,Enterprise,arr_usd,175200000.0,USD,stock,Ending annual recurring revenue
+2023-04,2024,Q1,Q1 FY2024,Mid-Market,revenue_usd,7711200.0,USD,flow,Recognized product and subscription revenue
+2023-04,2024,Q1,Q1 FY2024,Mid-Market,arr_usd,78840000.0,USD,stock,Ending annual recurring revenue
+2023-04,2024,Q1,Q1 FY2024,Cloud,revenue_usd,3712800.0,USD,flow,Recognized product and subscription revenue
+2023-04,2024,Q1,Q1 FY2024,Cloud,arr_usd,37960000.0,USD,stock,Ending annual recurring revenue
+2023-04,2024,Q1,Q1 FY2024,Company,new_logo_acv_usd,7560000.0,USD,flow,Annual contract value from new customers
+2023-04,2024,Q1,Q1 FY2024,Company,expansion_acv_usd,3780000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2023-04,2024,Q1,Q1 FY2024,Company,churned_arr_usd,1764000.0,USD,flow,ARR lost to logo churn and downsell
+2023-04,2024,Q1,Q1 FY2024,Company,nrr_pct,114.0,percent,rate,Net revenue retention
+2023-04,2024,Q1,Q1 FY2024,Company,gross_margin_pct,68.4,percent,rate,Gross margin
+2023-04,2024,Q1,Q1 FY2024,Company,opex_usd,17220000.0,USD,flow,Operating expenses
+2023-04,2024,Q1,Q1 FY2024,Company,ending_customers,410.0,count,stock,Ending customer count
+2023-04,2024,Q1,Q1 FY2024,Company,pipeline_usd,210000000.0,USD,stock,Qualified pipeline at period end
+2023-04,2024,Q1,Q1 FY2024,Company,win_rate_pct,27.0,percent,rate,Competitive win rate
+2023-04,2024,Q1,Q1 FY2024,Company,cac_usd,42000.0,USD,rate,Customer acquisition cost
+2023-04,2024,Q1,Q1 FY2024,Company,support_tickets,764.4,count,flow,Opened support tickets
+2023-04,2024,Q1,Q1 FY2024,Company,headcount,620.0,count,stock,Ending employee headcount
+2023-05,2024,Q2,Q2 FY2024,Company,revenue_usd,20160000.0,USD,flow,Recognized product and subscription revenue
+2023-05,2024,Q2,Q2 FY2024,Company,arr_usd,308000000.0,USD,stock,Ending annual recurring revenue
+2023-05,2024,Q2,Q2 FY2024,Enterprise,revenue_usd,11894400.0,USD,flow,Recognized product and subscription revenue
+2023-05,2024,Q2,Q2 FY2024,Enterprise,arr_usd,181720000.0,USD,stock,Ending annual recurring revenue
+2023-05,2024,Q2,Q2 FY2024,Mid-Market,revenue_usd,5443200.0,USD,flow,Recognized product and subscription revenue
+2023-05,2024,Q2,Q2 FY2024,Mid-Market,arr_usd,83160000.0,USD,stock,Ending annual recurring revenue
+2023-05,2024,Q2,Q2 FY2024,Cloud,revenue_usd,2822400.0,USD,flow,Recognized product and subscription revenue
+2023-05,2024,Q2,Q2 FY2024,Cloud,arr_usd,43120000.0,USD,stock,Ending annual recurring revenue
+2023-05,2024,Q2,Q2 FY2024,Company,new_logo_acv_usd,5460000.0,USD,flow,Annual contract value from new customers
+2023-05,2024,Q2,Q2 FY2024,Company,expansion_acv_usd,2744000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2023-05,2024,Q2,Q2 FY2024,Company,churned_arr_usd,1232000.0,USD,flow,ARR lost to logo churn and downsell
+2023-05,2024,Q2,Q2 FY2024,Company,nrr_pct,115.0,percent,rate,Net revenue retention
+2023-05,2024,Q2,Q2 FY2024,Company,gross_margin_pct,68.8,percent,rate,Gross margin
+2023-05,2024,Q2,Q2 FY2024,Company,opex_usd,12040000.0,USD,flow,Operating expenses
+2023-05,2024,Q2,Q2 FY2024,Company,ending_customers,428.0,count,stock,Ending customer count
+2023-05,2024,Q2,Q2 FY2024,Company,pipeline_usd,225000000.0,USD,stock,Qualified pipeline at period end
+2023-05,2024,Q2,Q2 FY2024,Company,win_rate_pct,27.5,percent,rate,Competitive win rate
+2023-05,2024,Q2,Q2 FY2024,Company,cac_usd,41500.0,USD,rate,Customer acquisition cost
+2023-05,2024,Q2,Q2 FY2024,Company,support_tickets,492.8,count,flow,Opened support tickets
+2023-05,2024,Q2,Q2 FY2024,Company,headcount,640.0,count,stock,Ending employee headcount
+2023-06,2024,Q2,Q2 FY2024,Company,revenue_usd,21600000.0,USD,flow,Recognized product and subscription revenue
+2023-06,2024,Q2,Q2 FY2024,Company,arr_usd,308000000.0,USD,stock,Ending annual recurring revenue
+2023-06,2024,Q2,Q2 FY2024,Enterprise,revenue_usd,12744000.0,USD,flow,Recognized product and subscription revenue
+2023-06,2024,Q2,Q2 FY2024,Enterprise,arr_usd,181720000.0,USD,stock,Ending annual recurring revenue
+2023-06,2024,Q2,Q2 FY2024,Mid-Market,revenue_usd,5832000.0,USD,flow,Recognized product and subscription revenue
+2023-06,2024,Q2,Q2 FY2024,Mid-Market,arr_usd,83160000.0,USD,stock,Ending annual recurring revenue
+2023-06,2024,Q2,Q2 FY2024,Cloud,revenue_usd,3024000.0,USD,flow,Recognized product and subscription revenue
+2023-06,2024,Q2,Q2 FY2024,Cloud,arr_usd,43120000.0,USD,stock,Ending annual recurring revenue
+2023-06,2024,Q2,Q2 FY2024,Company,new_logo_acv_usd,5850000.0,USD,flow,Annual contract value from new customers
+2023-06,2024,Q2,Q2 FY2024,Company,expansion_acv_usd,2940000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2023-06,2024,Q2,Q2 FY2024,Company,churned_arr_usd,1320000.0,USD,flow,ARR lost to logo churn and downsell
+2023-06,2024,Q2,Q2 FY2024,Company,nrr_pct,115.0,percent,rate,Net revenue retention
+2023-06,2024,Q2,Q2 FY2024,Company,gross_margin_pct,68.8,percent,rate,Gross margin
+2023-06,2024,Q2,Q2 FY2024,Company,opex_usd,12900000.0,USD,flow,Operating expenses
+2023-06,2024,Q2,Q2 FY2024,Company,ending_customers,428.0,count,stock,Ending customer count
+2023-06,2024,Q2,Q2 FY2024,Company,pipeline_usd,225000000.0,USD,stock,Qualified pipeline at period end
+2023-06,2024,Q2,Q2 FY2024,Company,win_rate_pct,27.5,percent,rate,Competitive win rate
+2023-06,2024,Q2,Q2 FY2024,Company,cac_usd,41500.0,USD,rate,Customer acquisition cost
+2023-06,2024,Q2,Q2 FY2024,Company,support_tickets,528.0,count,flow,Opened support tickets
+2023-06,2024,Q2,Q2 FY2024,Company,headcount,640.0,count,stock,Ending employee headcount
+2023-07,2024,Q2,Q2 FY2024,Company,revenue_usd,30240000.0,USD,flow,Recognized product and subscription revenue
+2023-07,2024,Q2,Q2 FY2024,Company,arr_usd,308000000.0,USD,stock,Ending annual recurring revenue
+2023-07,2024,Q2,Q2 FY2024,Enterprise,revenue_usd,17841600.0,USD,flow,Recognized product and subscription revenue
+2023-07,2024,Q2,Q2 FY2024,Enterprise,arr_usd,181720000.0,USD,stock,Ending annual recurring revenue
+2023-07,2024,Q2,Q2 FY2024,Mid-Market,revenue_usd,8164800.0,USD,flow,Recognized product and subscription revenue
+2023-07,2024,Q2,Q2 FY2024,Mid-Market,arr_usd,83160000.0,USD,stock,Ending annual recurring revenue
+2023-07,2024,Q2,Q2 FY2024,Cloud,revenue_usd,4233600.0,USD,flow,Recognized product and subscription revenue
+2023-07,2024,Q2,Q2 FY2024,Cloud,arr_usd,43120000.0,USD,stock,Ending annual recurring revenue
+2023-07,2024,Q2,Q2 FY2024,Company,new_logo_acv_usd,8190000.0,USD,flow,Annual contract value from new customers
+2023-07,2024,Q2,Q2 FY2024,Company,expansion_acv_usd,4116000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2023-07,2024,Q2,Q2 FY2024,Company,churned_arr_usd,1848000.0,USD,flow,ARR lost to logo churn and downsell
+2023-07,2024,Q2,Q2 FY2024,Company,nrr_pct,115.0,percent,rate,Net revenue retention
+2023-07,2024,Q2,Q2 FY2024,Company,gross_margin_pct,68.8,percent,rate,Gross margin
+2023-07,2024,Q2,Q2 FY2024,Company,opex_usd,18060000.0,USD,flow,Operating expenses
+2023-07,2024,Q2,Q2 FY2024,Company,ending_customers,428.0,count,stock,Ending customer count
+2023-07,2024,Q2,Q2 FY2024,Company,pipeline_usd,225000000.0,USD,stock,Qualified pipeline at period end
+2023-07,2024,Q2,Q2 FY2024,Company,win_rate_pct,27.5,percent,rate,Competitive win rate
+2023-07,2024,Q2,Q2 FY2024,Company,cac_usd,41500.0,USD,rate,Customer acquisition cost
+2023-07,2024,Q2,Q2 FY2024,Company,support_tickets,739.2,count,flow,Opened support tickets
+2023-07,2024,Q2,Q2 FY2024,Company,headcount,640.0,count,stock,Ending employee headcount
+2023-08,2024,Q3,Q3 FY2024,Company,revenue_usd,21280000.0,USD,flow,Recognized product and subscription revenue
+2023-08,2024,Q3,Q3 FY2024,Company,arr_usd,324000000.0,USD,stock,Ending annual recurring revenue
+2023-08,2024,Q3,Q3 FY2024,Enterprise,revenue_usd,12342400.0,USD,flow,Recognized product and subscription revenue
+2023-08,2024,Q3,Q3 FY2024,Enterprise,arr_usd,187920000.0,USD,stock,Ending annual recurring revenue
+2023-08,2024,Q3,Q3 FY2024,Mid-Market,revenue_usd,5745600.0,USD,flow,Recognized product and subscription revenue
+2023-08,2024,Q3,Q3 FY2024,Mid-Market,arr_usd,87480000.0,USD,stock,Ending annual recurring revenue
+2023-08,2024,Q3,Q3 FY2024,Cloud,revenue_usd,3192000.0,USD,flow,Recognized product and subscription revenue
+2023-08,2024,Q3,Q3 FY2024,Cloud,arr_usd,48600000.0,USD,stock,Ending annual recurring revenue
+2023-08,2024,Q3,Q3 FY2024,Company,new_logo_acv_usd,5880000.0,USD,flow,Annual contract value from new customers
+2023-08,2024,Q3,Q3 FY2024,Company,expansion_acv_usd,2912000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2023-08,2024,Q3,Q3 FY2024,Company,churned_arr_usd,1288000.0,USD,flow,ARR lost to logo churn and downsell
+2023-08,2024,Q3,Q3 FY2024,Company,nrr_pct,116.0,percent,rate,Net revenue retention
+2023-08,2024,Q3,Q3 FY2024,Company,gross_margin_pct,69.1,percent,rate,Gross margin
+2023-08,2024,Q3,Q3 FY2024,Company,opex_usd,12460000.0,USD,flow,Operating expenses
+2023-08,2024,Q3,Q3 FY2024,Company,ending_customers,447.0,count,stock,Ending customer count
+2023-08,2024,Q3,Q3 FY2024,Company,pipeline_usd,240000000.0,USD,stock,Qualified pipeline at period end
+2023-08,2024,Q3,Q3 FY2024,Company,win_rate_pct,28.0,percent,rate,Competitive win rate
+2023-08,2024,Q3,Q3 FY2024,Company,cac_usd,41000.0,USD,rate,Customer acquisition cost
+2023-08,2024,Q3,Q3 FY2024,Company,support_tickets,478.8,count,flow,Opened support tickets
+2023-08,2024,Q3,Q3 FY2024,Company,headcount,655.0,count,stock,Ending employee headcount
+2023-09,2024,Q3,Q3 FY2024,Company,revenue_usd,22800000.0,USD,flow,Recognized product and subscription revenue
+2023-09,2024,Q3,Q3 FY2024,Company,arr_usd,324000000.0,USD,stock,Ending annual recurring revenue
+2023-09,2024,Q3,Q3 FY2024,Enterprise,revenue_usd,13224000.0,USD,flow,Recognized product and subscription revenue
+2023-09,2024,Q3,Q3 FY2024,Enterprise,arr_usd,187920000.0,USD,stock,Ending annual recurring revenue
+2023-09,2024,Q3,Q3 FY2024,Mid-Market,revenue_usd,6156000.0,USD,flow,Recognized product and subscription revenue
+2023-09,2024,Q3,Q3 FY2024,Mid-Market,arr_usd,87480000.0,USD,stock,Ending annual recurring revenue
+2023-09,2024,Q3,Q3 FY2024,Cloud,revenue_usd,3420000.0,USD,flow,Recognized product and subscription revenue
+2023-09,2024,Q3,Q3 FY2024,Cloud,arr_usd,48600000.0,USD,stock,Ending annual recurring revenue
+2023-09,2024,Q3,Q3 FY2024,Company,new_logo_acv_usd,6300000.0,USD,flow,Annual contract value from new customers
+2023-09,2024,Q3,Q3 FY2024,Company,expansion_acv_usd,3120000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2023-09,2024,Q3,Q3 FY2024,Company,churned_arr_usd,1380000.0,USD,flow,ARR lost to logo churn and downsell
+2023-09,2024,Q3,Q3 FY2024,Company,nrr_pct,116.0,percent,rate,Net revenue retention
+2023-09,2024,Q3,Q3 FY2024,Company,gross_margin_pct,69.1,percent,rate,Gross margin
+2023-09,2024,Q3,Q3 FY2024,Company,opex_usd,13350000.0,USD,flow,Operating expenses
+2023-09,2024,Q3,Q3 FY2024,Company,ending_customers,447.0,count,stock,Ending customer count
+2023-09,2024,Q3,Q3 FY2024,Company,pipeline_usd,240000000.0,USD,stock,Qualified pipeline at period end
+2023-09,2024,Q3,Q3 FY2024,Company,win_rate_pct,28.0,percent,rate,Competitive win rate
+2023-09,2024,Q3,Q3 FY2024,Company,cac_usd,41000.0,USD,rate,Customer acquisition cost
+2023-09,2024,Q3,Q3 FY2024,Company,support_tickets,513.0,count,flow,Opened support tickets
+2023-09,2024,Q3,Q3 FY2024,Company,headcount,655.0,count,stock,Ending employee headcount
+2023-10,2024,Q3,Q3 FY2024,Company,revenue_usd,31920000.0,USD,flow,Recognized product and subscription revenue
+2023-10,2024,Q3,Q3 FY2024,Company,arr_usd,324000000.0,USD,stock,Ending annual recurring revenue
+2023-10,2024,Q3,Q3 FY2024,Enterprise,revenue_usd,18513600.0,USD,flow,Recognized product and subscription revenue
+2023-10,2024,Q3,Q3 FY2024,Enterprise,arr_usd,187920000.0,USD,stock,Ending annual recurring revenue
+2023-10,2024,Q3,Q3 FY2024,Mid-Market,revenue_usd,8618400.0,USD,flow,Recognized product and subscription revenue
+2023-10,2024,Q3,Q3 FY2024,Mid-Market,arr_usd,87480000.0,USD,stock,Ending annual recurring revenue
+2023-10,2024,Q3,Q3 FY2024,Cloud,revenue_usd,4788000.0,USD,flow,Recognized product and subscription revenue
+2023-10,2024,Q3,Q3 FY2024,Cloud,arr_usd,48600000.0,USD,stock,Ending annual recurring revenue
+2023-10,2024,Q3,Q3 FY2024,Company,new_logo_acv_usd,8820000.0,USD,flow,Annual contract value from new customers
+2023-10,2024,Q3,Q3 FY2024,Company,expansion_acv_usd,4368000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2023-10,2024,Q3,Q3 FY2024,Company,churned_arr_usd,1932000.0,USD,flow,ARR lost to logo churn and downsell
+2023-10,2024,Q3,Q3 FY2024,Company,nrr_pct,116.0,percent,rate,Net revenue retention
+2023-10,2024,Q3,Q3 FY2024,Company,gross_margin_pct,69.1,percent,rate,Gross margin
+2023-10,2024,Q3,Q3 FY2024,Company,opex_usd,18690000.0,USD,flow,Operating expenses
+2023-10,2024,Q3,Q3 FY2024,Company,ending_customers,447.0,count,stock,Ending customer count
+2023-10,2024,Q3,Q3 FY2024,Company,pipeline_usd,240000000.0,USD,stock,Qualified pipeline at period end
+2023-10,2024,Q3,Q3 FY2024,Company,win_rate_pct,28.0,percent,rate,Competitive win rate
+2023-10,2024,Q3,Q3 FY2024,Company,cac_usd,41000.0,USD,rate,Customer acquisition cost
+2023-10,2024,Q3,Q3 FY2024,Company,support_tickets,718.2,count,flow,Opened support tickets
+2023-10,2024,Q3,Q3 FY2024,Company,headcount,655.0,count,stock,Ending employee headcount
+2023-11,2024,Q4,Q4 FY2024,Company,revenue_usd,23520000.0,USD,flow,Recognized product and subscription revenue
+2023-11,2024,Q4,Q4 FY2024,Company,arr_usd,346000000.0,USD,stock,Ending annual recurring revenue
+2023-11,2024,Q4,Q4 FY2024,Enterprise,revenue_usd,13406400.0,USD,flow,Recognized product and subscription revenue
+2023-11,2024,Q4,Q4 FY2024,Enterprise,arr_usd,197220000.0,USD,stock,Ending annual recurring revenue
+2023-11,2024,Q4,Q4 FY2024,Mid-Market,revenue_usd,6350400.0,USD,flow,Recognized product and subscription revenue
+2023-11,2024,Q4,Q4 FY2024,Mid-Market,arr_usd,93420000.0,USD,stock,Ending annual recurring revenue
+2023-11,2024,Q4,Q4 FY2024,Cloud,revenue_usd,3763200.0,USD,flow,Recognized product and subscription revenue
+2023-11,2024,Q4,Q4 FY2024,Cloud,arr_usd,55360000.0,USD,stock,Ending annual recurring revenue
+2023-11,2024,Q4,Q4 FY2024,Company,new_logo_acv_usd,6720000.0,USD,flow,Annual contract value from new customers
+2023-11,2024,Q4,Q4 FY2024,Company,expansion_acv_usd,3416000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2023-11,2024,Q4,Q4 FY2024,Company,churned_arr_usd,1400000.0,USD,flow,ARR lost to logo churn and downsell
+2023-11,2024,Q4,Q4 FY2024,Company,nrr_pct,117.0,percent,rate,Net revenue retention
+2023-11,2024,Q4,Q4 FY2024,Company,gross_margin_pct,69.5,percent,rate,Gross margin
+2023-11,2024,Q4,Q4 FY2024,Company,opex_usd,13160000.0,USD,flow,Operating expenses
+2023-11,2024,Q4,Q4 FY2024,Company,ending_customers,469.0,count,stock,Ending customer count
+2023-11,2024,Q4,Q4 FY2024,Company,pipeline_usd,268000000.0,USD,stock,Qualified pipeline at period end
+2023-11,2024,Q4,Q4 FY2024,Company,win_rate_pct,29.0,percent,rate,Competitive win rate
+2023-11,2024,Q4,Q4 FY2024,Company,cac_usd,40000.0,USD,rate,Customer acquisition cost
+2023-11,2024,Q4,Q4 FY2024,Company,support_tickets,473.2,count,flow,Opened support tickets
+2023-11,2024,Q4,Q4 FY2024,Company,headcount,680.0,count,stock,Ending employee headcount
+2023-12,2024,Q4,Q4 FY2024,Company,revenue_usd,25200000.0,USD,flow,Recognized product and subscription revenue
+2023-12,2024,Q4,Q4 FY2024,Company,arr_usd,346000000.0,USD,stock,Ending annual recurring revenue
+2023-12,2024,Q4,Q4 FY2024,Enterprise,revenue_usd,14364000.0,USD,flow,Recognized product and subscription revenue
+2023-12,2024,Q4,Q4 FY2024,Enterprise,arr_usd,197220000.0,USD,stock,Ending annual recurring revenue
+2023-12,2024,Q4,Q4 FY2024,Mid-Market,revenue_usd,6804000.0,USD,flow,Recognized product and subscription revenue
+2023-12,2024,Q4,Q4 FY2024,Mid-Market,arr_usd,93420000.0,USD,stock,Ending annual recurring revenue
+2023-12,2024,Q4,Q4 FY2024,Cloud,revenue_usd,4032000.0,USD,flow,Recognized product and subscription revenue
+2023-12,2024,Q4,Q4 FY2024,Cloud,arr_usd,55360000.0,USD,stock,Ending annual recurring revenue
+2023-12,2024,Q4,Q4 FY2024,Company,new_logo_acv_usd,7200000.0,USD,flow,Annual contract value from new customers
+2023-12,2024,Q4,Q4 FY2024,Company,expansion_acv_usd,3660000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2023-12,2024,Q4,Q4 FY2024,Company,churned_arr_usd,1500000.0,USD,flow,ARR lost to logo churn and downsell
+2023-12,2024,Q4,Q4 FY2024,Company,nrr_pct,117.0,percent,rate,Net revenue retention
+2023-12,2024,Q4,Q4 FY2024,Company,gross_margin_pct,69.5,percent,rate,Gross margin
+2023-12,2024,Q4,Q4 FY2024,Company,opex_usd,14100000.0,USD,flow,Operating expenses
+2023-12,2024,Q4,Q4 FY2024,Company,ending_customers,469.0,count,stock,Ending customer count
+2023-12,2024,Q4,Q4 FY2024,Company,pipeline_usd,268000000.0,USD,stock,Qualified pipeline at period end
+2023-12,2024,Q4,Q4 FY2024,Company,win_rate_pct,29.0,percent,rate,Competitive win rate
+2023-12,2024,Q4,Q4 FY2024,Company,cac_usd,40000.0,USD,rate,Customer acquisition cost
+2023-12,2024,Q4,Q4 FY2024,Company,support_tickets,507.0,count,flow,Opened support tickets
+2023-12,2024,Q4,Q4 FY2024,Company,headcount,680.0,count,stock,Ending employee headcount
+2024-01,2024,Q4,Q4 FY2024,Company,revenue_usd,35280000.0,USD,flow,Recognized product and subscription revenue
+2024-01,2024,Q4,Q4 FY2024,Company,arr_usd,346000000.0,USD,stock,Ending annual recurring revenue
+2024-01,2024,Q4,Q4 FY2024,Enterprise,revenue_usd,20109600.0,USD,flow,Recognized product and subscription revenue
+2024-01,2024,Q4,Q4 FY2024,Enterprise,arr_usd,197220000.0,USD,stock,Ending annual recurring revenue
+2024-01,2024,Q4,Q4 FY2024,Mid-Market,revenue_usd,9525600.0,USD,flow,Recognized product and subscription revenue
+2024-01,2024,Q4,Q4 FY2024,Mid-Market,arr_usd,93420000.0,USD,stock,Ending annual recurring revenue
+2024-01,2024,Q4,Q4 FY2024,Cloud,revenue_usd,5644800.0,USD,flow,Recognized product and subscription revenue
+2024-01,2024,Q4,Q4 FY2024,Cloud,arr_usd,55360000.0,USD,stock,Ending annual recurring revenue
+2024-01,2024,Q4,Q4 FY2024,Company,new_logo_acv_usd,10080000.0,USD,flow,Annual contract value from new customers
+2024-01,2024,Q4,Q4 FY2024,Company,expansion_acv_usd,5124000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2024-01,2024,Q4,Q4 FY2024,Company,churned_arr_usd,2100000.0,USD,flow,ARR lost to logo churn and downsell
+2024-01,2024,Q4,Q4 FY2024,Company,nrr_pct,117.0,percent,rate,Net revenue retention
+2024-01,2024,Q4,Q4 FY2024,Company,gross_margin_pct,69.5,percent,rate,Gross margin
+2024-01,2024,Q4,Q4 FY2024,Company,opex_usd,19740000.0,USD,flow,Operating expenses
+2024-01,2024,Q4,Q4 FY2024,Company,ending_customers,469.0,count,stock,Ending customer count
+2024-01,2024,Q4,Q4 FY2024,Company,pipeline_usd,268000000.0,USD,stock,Qualified pipeline at period end
+2024-01,2024,Q4,Q4 FY2024,Company,win_rate_pct,29.0,percent,rate,Competitive win rate
+2024-01,2024,Q4,Q4 FY2024,Company,cac_usd,40000.0,USD,rate,Customer acquisition cost
+2024-01,2024,Q4,Q4 FY2024,Company,support_tickets,709.8,count,flow,Opened support tickets
+2024-01,2024,Q4,Q4 FY2024,Company,headcount,680.0,count,stock,Ending employee headcount
+2024-02,2025,Q1,Q1 FY2025,Company,revenue_usd,24640000.0,USD,flow,Recognized product and subscription revenue
+2024-02,2025,Q1,Q1 FY2025,Company,arr_usd,368000000.0,USD,stock,Ending annual recurring revenue
+2024-02,2025,Q1,Q1 FY2025,Enterprise,revenue_usd,13798400.0,USD,flow,Recognized product and subscription revenue
+2024-02,2025,Q1,Q1 FY2025,Enterprise,arr_usd,206080000.0,USD,stock,Ending annual recurring revenue
+2024-02,2025,Q1,Q1 FY2025,Mid-Market,revenue_usd,6652800.0,USD,flow,Recognized product and subscription revenue
+2024-02,2025,Q1,Q1 FY2025,Mid-Market,arr_usd,99360000.0,USD,stock,Ending annual recurring revenue
+2024-02,2025,Q1,Q1 FY2025,Cloud,revenue_usd,4188800.0,USD,flow,Recognized product and subscription revenue
+2024-02,2025,Q1,Q1 FY2025,Cloud,arr_usd,62560000.0,USD,stock,Ending annual recurring revenue
+2024-02,2025,Q1,Q1 FY2025,Company,new_logo_acv_usd,7280000.0,USD,flow,Annual contract value from new customers
+2024-02,2025,Q1,Q1 FY2025,Company,expansion_acv_usd,3780000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2024-02,2025,Q1,Q1 FY2025,Company,churned_arr_usd,1456000.0,USD,flow,ARR lost to logo churn and downsell
+2024-02,2025,Q1,Q1 FY2025,Company,nrr_pct,118.0,percent,rate,Net revenue retention
+2024-02,2025,Q1,Q1 FY2025,Company,gross_margin_pct,69.8,percent,rate,Gross margin
+2024-02,2025,Q1,Q1 FY2025,Company,opex_usd,13720000.0,USD,flow,Operating expenses
+2024-02,2025,Q1,Q1 FY2025,Company,ending_customers,492.0,count,stock,Ending customer count
+2024-02,2025,Q1,Q1 FY2025,Company,pipeline_usd,280000000.0,USD,stock,Qualified pipeline at period end
+2024-02,2025,Q1,Q1 FY2025,Company,win_rate_pct,29.5,percent,rate,Competitive win rate
+2024-02,2025,Q1,Q1 FY2025,Company,cac_usd,39500.0,USD,rate,Customer acquisition cost
+2024-02,2025,Q1,Q1 FY2025,Company,support_tickets,487.2,count,flow,Opened support tickets
+2024-02,2025,Q1,Q1 FY2025,Company,headcount,705.0,count,stock,Ending employee headcount
+2024-03,2025,Q1,Q1 FY2025,Company,revenue_usd,26400000.0,USD,flow,Recognized product and subscription revenue
+2024-03,2025,Q1,Q1 FY2025,Company,arr_usd,368000000.0,USD,stock,Ending annual recurring revenue
+2024-03,2025,Q1,Q1 FY2025,Enterprise,revenue_usd,14784000.0,USD,flow,Recognized product and subscription revenue
+2024-03,2025,Q1,Q1 FY2025,Enterprise,arr_usd,206080000.0,USD,stock,Ending annual recurring revenue
+2024-03,2025,Q1,Q1 FY2025,Mid-Market,revenue_usd,7128000.0,USD,flow,Recognized product and subscription revenue
+2024-03,2025,Q1,Q1 FY2025,Mid-Market,arr_usd,99360000.0,USD,stock,Ending annual recurring revenue
+2024-03,2025,Q1,Q1 FY2025,Cloud,revenue_usd,4488000.0,USD,flow,Recognized product and subscription revenue
+2024-03,2025,Q1,Q1 FY2025,Cloud,arr_usd,62560000.0,USD,stock,Ending annual recurring revenue
+2024-03,2025,Q1,Q1 FY2025,Company,new_logo_acv_usd,7800000.0,USD,flow,Annual contract value from new customers
+2024-03,2025,Q1,Q1 FY2025,Company,expansion_acv_usd,4050000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2024-03,2025,Q1,Q1 FY2025,Company,churned_arr_usd,1560000.0,USD,flow,ARR lost to logo churn and downsell
+2024-03,2025,Q1,Q1 FY2025,Company,nrr_pct,118.0,percent,rate,Net revenue retention
+2024-03,2025,Q1,Q1 FY2025,Company,gross_margin_pct,69.8,percent,rate,Gross margin
+2024-03,2025,Q1,Q1 FY2025,Company,opex_usd,14700000.0,USD,flow,Operating expenses
+2024-03,2025,Q1,Q1 FY2025,Company,ending_customers,492.0,count,stock,Ending customer count
+2024-03,2025,Q1,Q1 FY2025,Company,pipeline_usd,280000000.0,USD,stock,Qualified pipeline at period end
+2024-03,2025,Q1,Q1 FY2025,Company,win_rate_pct,29.5,percent,rate,Competitive win rate
+2024-03,2025,Q1,Q1 FY2025,Company,cac_usd,39500.0,USD,rate,Customer acquisition cost
+2024-03,2025,Q1,Q1 FY2025,Company,support_tickets,522.0,count,flow,Opened support tickets
+2024-03,2025,Q1,Q1 FY2025,Company,headcount,705.0,count,stock,Ending employee headcount
+2024-04,2025,Q1,Q1 FY2025,Company,revenue_usd,36960000.0,USD,flow,Recognized product and subscription revenue
+2024-04,2025,Q1,Q1 FY2025,Company,arr_usd,368000000.0,USD,stock,Ending annual recurring revenue
+2024-04,2025,Q1,Q1 FY2025,Enterprise,revenue_usd,20697600.0,USD,flow,Recognized product and subscription revenue
+2024-04,2025,Q1,Q1 FY2025,Enterprise,arr_usd,206080000.0,USD,stock,Ending annual recurring revenue
+2024-04,2025,Q1,Q1 FY2025,Mid-Market,revenue_usd,9979200.0,USD,flow,Recognized product and subscription revenue
+2024-04,2025,Q1,Q1 FY2025,Mid-Market,arr_usd,99360000.0,USD,stock,Ending annual recurring revenue
+2024-04,2025,Q1,Q1 FY2025,Cloud,revenue_usd,6283200.0,USD,flow,Recognized product and subscription revenue
+2024-04,2025,Q1,Q1 FY2025,Cloud,arr_usd,62560000.0,USD,stock,Ending annual recurring revenue
+2024-04,2025,Q1,Q1 FY2025,Company,new_logo_acv_usd,10920000.0,USD,flow,Annual contract value from new customers
+2024-04,2025,Q1,Q1 FY2025,Company,expansion_acv_usd,5670000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2024-04,2025,Q1,Q1 FY2025,Company,churned_arr_usd,2184000.0,USD,flow,ARR lost to logo churn and downsell
+2024-04,2025,Q1,Q1 FY2025,Company,nrr_pct,118.0,percent,rate,Net revenue retention
+2024-04,2025,Q1,Q1 FY2025,Company,gross_margin_pct,69.8,percent,rate,Gross margin
+2024-04,2025,Q1,Q1 FY2025,Company,opex_usd,20580000.0,USD,flow,Operating expenses
+2024-04,2025,Q1,Q1 FY2025,Company,ending_customers,492.0,count,stock,Ending customer count
+2024-04,2025,Q1,Q1 FY2025,Company,pipeline_usd,280000000.0,USD,stock,Qualified pipeline at period end
+2024-04,2025,Q1,Q1 FY2025,Company,win_rate_pct,29.5,percent,rate,Competitive win rate
+2024-04,2025,Q1,Q1 FY2025,Company,cac_usd,39500.0,USD,rate,Customer acquisition cost
+2024-04,2025,Q1,Q1 FY2025,Company,support_tickets,730.8,count,flow,Opened support tickets
+2024-04,2025,Q1,Q1 FY2025,Company,headcount,705.0,count,stock,Ending employee headcount
+2024-05,2025,Q2,Q2 FY2025,Company,revenue_usd,28560000.0,USD,flow,Recognized product and subscription revenue
+2024-05,2025,Q2,Q2 FY2025,Company,arr_usd,412000000.0,USD,stock,Ending annual recurring revenue
+2024-05,2025,Q2,Q2 FY2025,Enterprise,revenue_usd,15708000.0,USD,flow,Recognized product and subscription revenue
+2024-05,2025,Q2,Q2 FY2025,Enterprise,arr_usd,226600000.0,USD,stock,Ending annual recurring revenue
+2024-05,2025,Q2,Q2 FY2025,Mid-Market,revenue_usd,7425600.0,USD,flow,Recognized product and subscription revenue
+2024-05,2025,Q2,Q2 FY2025,Mid-Market,arr_usd,107120000.0,USD,stock,Ending annual recurring revenue
+2024-05,2025,Q2,Q2 FY2025,Cloud,revenue_usd,5426400.0,USD,flow,Recognized product and subscription revenue
+2024-05,2025,Q2,Q2 FY2025,Cloud,arr_usd,78280000.0,USD,stock,Ending annual recurring revenue
+2024-05,2025,Q2,Q2 FY2025,Company,new_logo_acv_usd,10640000.0,USD,flow,Annual contract value from new customers
+2024-05,2025,Q2,Q2 FY2025,Company,expansion_acv_usd,4480000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2024-05,2025,Q2,Q2 FY2025,Company,churned_arr_usd,1512000.0,USD,flow,ARR lost to logo churn and downsell
+2024-05,2025,Q2,Q2 FY2025,Company,nrr_pct,121.0,percent,rate,Net revenue retention
+2024-05,2025,Q2,Q2 FY2025,Company,gross_margin_pct,70.6,percent,rate,Gross margin
+2024-05,2025,Q2,Q2 FY2025,Company,opex_usd,15120000.0,USD,flow,Operating expenses
+2024-05,2025,Q2,Q2 FY2025,Company,ending_customers,538.0,count,stock,Ending customer count
+2024-05,2025,Q2,Q2 FY2025,Company,pipeline_usd,355000000.0,USD,stock,Qualified pipeline at period end
+2024-05,2025,Q2,Q2 FY2025,Company,win_rate_pct,33.0,percent,rate,Competitive win rate
+2024-05,2025,Q2,Q2 FY2025,Company,cac_usd,36000.0,USD,rate,Customer acquisition cost
+2024-05,2025,Q2,Q2 FY2025,Company,support_tickets,554.4,count,flow,Opened support tickets
+2024-05,2025,Q2,Q2 FY2025,Company,headcount,760.0,count,stock,Ending employee headcount
+2024-06,2025,Q2,Q2 FY2025,Company,revenue_usd,30600000.0,USD,flow,Recognized product and subscription revenue
+2024-06,2025,Q2,Q2 FY2025,Company,arr_usd,412000000.0,USD,stock,Ending annual recurring revenue
+2024-06,2025,Q2,Q2 FY2025,Enterprise,revenue_usd,16830000.0,USD,flow,Recognized product and subscription revenue
+2024-06,2025,Q2,Q2 FY2025,Enterprise,arr_usd,226600000.0,USD,stock,Ending annual recurring revenue
+2024-06,2025,Q2,Q2 FY2025,Mid-Market,revenue_usd,7956000.0,USD,flow,Recognized product and subscription revenue
+2024-06,2025,Q2,Q2 FY2025,Mid-Market,arr_usd,107120000.0,USD,stock,Ending annual recurring revenue
+2024-06,2025,Q2,Q2 FY2025,Cloud,revenue_usd,5814000.0,USD,flow,Recognized product and subscription revenue
+2024-06,2025,Q2,Q2 FY2025,Cloud,arr_usd,78280000.0,USD,stock,Ending annual recurring revenue
+2024-06,2025,Q2,Q2 FY2025,Company,new_logo_acv_usd,11400000.0,USD,flow,Annual contract value from new customers
+2024-06,2025,Q2,Q2 FY2025,Company,expansion_acv_usd,4800000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2024-06,2025,Q2,Q2 FY2025,Company,churned_arr_usd,1620000.0,USD,flow,ARR lost to logo churn and downsell
+2024-06,2025,Q2,Q2 FY2025,Company,nrr_pct,121.0,percent,rate,Net revenue retention
+2024-06,2025,Q2,Q2 FY2025,Company,gross_margin_pct,70.6,percent,rate,Gross margin
+2024-06,2025,Q2,Q2 FY2025,Company,opex_usd,16200000.0,USD,flow,Operating expenses
+2024-06,2025,Q2,Q2 FY2025,Company,ending_customers,538.0,count,stock,Ending customer count
+2024-06,2025,Q2,Q2 FY2025,Company,pipeline_usd,355000000.0,USD,stock,Qualified pipeline at period end
+2024-06,2025,Q2,Q2 FY2025,Company,win_rate_pct,33.0,percent,rate,Competitive win rate
+2024-06,2025,Q2,Q2 FY2025,Company,cac_usd,36000.0,USD,rate,Customer acquisition cost
+2024-06,2025,Q2,Q2 FY2025,Company,support_tickets,594.0,count,flow,Opened support tickets
+2024-06,2025,Q2,Q2 FY2025,Company,headcount,760.0,count,stock,Ending employee headcount
+2024-07,2025,Q2,Q2 FY2025,Company,revenue_usd,42840000.0,USD,flow,Recognized product and subscription revenue
+2024-07,2025,Q2,Q2 FY2025,Company,arr_usd,412000000.0,USD,stock,Ending annual recurring revenue
+2024-07,2025,Q2,Q2 FY2025,Enterprise,revenue_usd,23562000.0,USD,flow,Recognized product and subscription revenue
+2024-07,2025,Q2,Q2 FY2025,Enterprise,arr_usd,226600000.0,USD,stock,Ending annual recurring revenue
+2024-07,2025,Q2,Q2 FY2025,Mid-Market,revenue_usd,11138400.0,USD,flow,Recognized product and subscription revenue
+2024-07,2025,Q2,Q2 FY2025,Mid-Market,arr_usd,107120000.0,USD,stock,Ending annual recurring revenue
+2024-07,2025,Q2,Q2 FY2025,Cloud,revenue_usd,8139600.0,USD,flow,Recognized product and subscription revenue
+2024-07,2025,Q2,Q2 FY2025,Cloud,arr_usd,78280000.0,USD,stock,Ending annual recurring revenue
+2024-07,2025,Q2,Q2 FY2025,Company,new_logo_acv_usd,15960000.0,USD,flow,Annual contract value from new customers
+2024-07,2025,Q2,Q2 FY2025,Company,expansion_acv_usd,6720000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2024-07,2025,Q2,Q2 FY2025,Company,churned_arr_usd,2268000.0,USD,flow,ARR lost to logo churn and downsell
+2024-07,2025,Q2,Q2 FY2025,Company,nrr_pct,121.0,percent,rate,Net revenue retention
+2024-07,2025,Q2,Q2 FY2025,Company,gross_margin_pct,70.6,percent,rate,Gross margin
+2024-07,2025,Q2,Q2 FY2025,Company,opex_usd,22680000.0,USD,flow,Operating expenses
+2024-07,2025,Q2,Q2 FY2025,Company,ending_customers,538.0,count,stock,Ending customer count
+2024-07,2025,Q2,Q2 FY2025,Company,pipeline_usd,355000000.0,USD,stock,Qualified pipeline at period end
+2024-07,2025,Q2,Q2 FY2025,Company,win_rate_pct,33.0,percent,rate,Competitive win rate
+2024-07,2025,Q2,Q2 FY2025,Company,cac_usd,36000.0,USD,rate,Customer acquisition cost
+2024-07,2025,Q2,Q2 FY2025,Company,support_tickets,831.6,count,flow,Opened support tickets
+2024-07,2025,Q2,Q2 FY2025,Company,headcount,760.0,count,stock,Ending employee headcount
+2024-08,2025,Q3,Q3 FY2025,Company,revenue_usd,26320000.0,USD,flow,Recognized product and subscription revenue
+2024-08,2025,Q3,Q3 FY2025,Company,arr_usd,404000000.0,USD,stock,Ending annual recurring revenue
+2024-08,2025,Q3,Q3 FY2025,Enterprise,revenue_usd,14212800.0,USD,flow,Recognized product and subscription revenue
+2024-08,2025,Q3,Q3 FY2025,Enterprise,arr_usd,218160000.0,USD,stock,Ending annual recurring revenue
+2024-08,2025,Q3,Q3 FY2025,Mid-Market,revenue_usd,6843200.0,USD,flow,Recognized product and subscription revenue
+2024-08,2025,Q3,Q3 FY2025,Mid-Market,arr_usd,105040000.0,USD,stock,Ending annual recurring revenue
+2024-08,2025,Q3,Q3 FY2025,Cloud,revenue_usd,5264000.0,USD,flow,Recognized product and subscription revenue
+2024-08,2025,Q3,Q3 FY2025,Cloud,arr_usd,80800000.0,USD,stock,Ending annual recurring revenue
+2024-08,2025,Q3,Q3 FY2025,Company,new_logo_acv_usd,6160000.0,USD,flow,Annual contract value from new customers
+2024-08,2025,Q3,Q3 FY2025,Company,expansion_acv_usd,2660000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2024-08,2025,Q3,Q3 FY2025,Company,churned_arr_usd,3304000.0,USD,flow,ARR lost to logo churn and downsell
+2024-08,2025,Q3,Q3 FY2025,Company,nrr_pct,104.0,percent,rate,Net revenue retention
+2024-08,2025,Q3,Q3 FY2025,Company,gross_margin_pct,67.2,percent,rate,Gross margin
+2024-08,2025,Q3,Q3 FY2025,Company,opex_usd,15820000.0,USD,flow,Operating expenses
+2024-08,2025,Q3,Q3 FY2025,Company,ending_customers,521.0,count,stock,Ending customer count
+2024-08,2025,Q3,Q3 FY2025,Company,pipeline_usd,310000000.0,USD,stock,Qualified pipeline at period end
+2024-08,2025,Q3,Q3 FY2025,Company,win_rate_pct,26.0,percent,rate,Competitive win rate
+2024-08,2025,Q3,Q3 FY2025,Company,cac_usd,44000.0,USD,rate,Customer acquisition cost
+2024-08,2025,Q3,Q3 FY2025,Company,support_tickets,1192.8,count,flow,Opened support tickets
+2024-08,2025,Q3,Q3 FY2025,Company,headcount,780.0,count,stock,Ending employee headcount
+2024-09,2025,Q3,Q3 FY2025,Company,revenue_usd,28200000.0,USD,flow,Recognized product and subscription revenue
+2024-09,2025,Q3,Q3 FY2025,Company,arr_usd,404000000.0,USD,stock,Ending annual recurring revenue
+2024-09,2025,Q3,Q3 FY2025,Enterprise,revenue_usd,15228000.0,USD,flow,Recognized product and subscription revenue
+2024-09,2025,Q3,Q3 FY2025,Enterprise,arr_usd,218160000.0,USD,stock,Ending annual recurring revenue
+2024-09,2025,Q3,Q3 FY2025,Mid-Market,revenue_usd,7332000.0,USD,flow,Recognized product and subscription revenue
+2024-09,2025,Q3,Q3 FY2025,Mid-Market,arr_usd,105040000.0,USD,stock,Ending annual recurring revenue
+2024-09,2025,Q3,Q3 FY2025,Cloud,revenue_usd,5640000.0,USD,flow,Recognized product and subscription revenue
+2024-09,2025,Q3,Q3 FY2025,Cloud,arr_usd,80800000.0,USD,stock,Ending annual recurring revenue
+2024-09,2025,Q3,Q3 FY2025,Company,new_logo_acv_usd,6600000.0,USD,flow,Annual contract value from new customers
+2024-09,2025,Q3,Q3 FY2025,Company,expansion_acv_usd,2850000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2024-09,2025,Q3,Q3 FY2025,Company,churned_arr_usd,3540000.0,USD,flow,ARR lost to logo churn and downsell
+2024-09,2025,Q3,Q3 FY2025,Company,nrr_pct,104.0,percent,rate,Net revenue retention
+2024-09,2025,Q3,Q3 FY2025,Company,gross_margin_pct,67.2,percent,rate,Gross margin
+2024-09,2025,Q3,Q3 FY2025,Company,opex_usd,16950000.0,USD,flow,Operating expenses
+2024-09,2025,Q3,Q3 FY2025,Company,ending_customers,521.0,count,stock,Ending customer count
+2024-09,2025,Q3,Q3 FY2025,Company,pipeline_usd,310000000.0,USD,stock,Qualified pipeline at period end
+2024-09,2025,Q3,Q3 FY2025,Company,win_rate_pct,26.0,percent,rate,Competitive win rate
+2024-09,2025,Q3,Q3 FY2025,Company,cac_usd,44000.0,USD,rate,Customer acquisition cost
+2024-09,2025,Q3,Q3 FY2025,Company,support_tickets,1278.0,count,flow,Opened support tickets
+2024-09,2025,Q3,Q3 FY2025,Company,headcount,780.0,count,stock,Ending employee headcount
+2024-10,2025,Q3,Q3 FY2025,Company,revenue_usd,39480000.0,USD,flow,Recognized product and subscription revenue
+2024-10,2025,Q3,Q3 FY2025,Company,arr_usd,404000000.0,USD,stock,Ending annual recurring revenue
+2024-10,2025,Q3,Q3 FY2025,Enterprise,revenue_usd,21319200.0,USD,flow,Recognized product and subscription revenue
+2024-10,2025,Q3,Q3 FY2025,Enterprise,arr_usd,218160000.0,USD,stock,Ending annual recurring revenue
+2024-10,2025,Q3,Q3 FY2025,Mid-Market,revenue_usd,10264800.0,USD,flow,Recognized product and subscription revenue
+2024-10,2025,Q3,Q3 FY2025,Mid-Market,arr_usd,105040000.0,USD,stock,Ending annual recurring revenue
+2024-10,2025,Q3,Q3 FY2025,Cloud,revenue_usd,7896000.0,USD,flow,Recognized product and subscription revenue
+2024-10,2025,Q3,Q3 FY2025,Cloud,arr_usd,80800000.0,USD,stock,Ending annual recurring revenue
+2024-10,2025,Q3,Q3 FY2025,Company,new_logo_acv_usd,9240000.0,USD,flow,Annual contract value from new customers
+2024-10,2025,Q3,Q3 FY2025,Company,expansion_acv_usd,3990000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2024-10,2025,Q3,Q3 FY2025,Company,churned_arr_usd,4956000.0,USD,flow,ARR lost to logo churn and downsell
+2024-10,2025,Q3,Q3 FY2025,Company,nrr_pct,104.0,percent,rate,Net revenue retention
+2024-10,2025,Q3,Q3 FY2025,Company,gross_margin_pct,67.2,percent,rate,Gross margin
+2024-10,2025,Q3,Q3 FY2025,Company,opex_usd,23730000.0,USD,flow,Operating expenses
+2024-10,2025,Q3,Q3 FY2025,Company,ending_customers,521.0,count,stock,Ending customer count
+2024-10,2025,Q3,Q3 FY2025,Company,pipeline_usd,310000000.0,USD,stock,Qualified pipeline at period end
+2024-10,2025,Q3,Q3 FY2025,Company,win_rate_pct,26.0,percent,rate,Competitive win rate
+2024-10,2025,Q3,Q3 FY2025,Company,cac_usd,44000.0,USD,rate,Customer acquisition cost
+2024-10,2025,Q3,Q3 FY2025,Company,support_tickets,1789.2,count,flow,Opened support tickets
+2024-10,2025,Q3,Q3 FY2025,Company,headcount,780.0,count,stock,Ending employee headcount
+2024-11,2025,Q4,Q4 FY2025,Company,revenue_usd,27440000.0,USD,flow,Recognized product and subscription revenue
+2024-11,2025,Q4,Q4 FY2025,Company,arr_usd,418000000.0,USD,stock,Ending annual recurring revenue
+2024-11,2025,Q4,Q4 FY2025,Enterprise,revenue_usd,13171200.0,USD,flow,Recognized product and subscription revenue
+2024-11,2025,Q4,Q4 FY2025,Enterprise,arr_usd,200640000.0,USD,stock,Ending annual recurring revenue
+2024-11,2025,Q4,Q4 FY2025,Mid-Market,revenue_usd,7683200.0,USD,flow,Recognized product and subscription revenue
+2024-11,2025,Q4,Q4 FY2025,Mid-Market,arr_usd,117040000.0,USD,stock,Ending annual recurring revenue
+2024-11,2025,Q4,Q4 FY2025,Cloud,revenue_usd,6585600.0,USD,flow,Recognized product and subscription revenue
+2024-11,2025,Q4,Q4 FY2025,Cloud,arr_usd,100320000.0,USD,stock,Ending annual recurring revenue
+2024-11,2025,Q4,Q4 FY2025,Company,new_logo_acv_usd,5600000.0,USD,flow,Annual contract value from new customers
+2024-11,2025,Q4,Q4 FY2025,Company,expansion_acv_usd,3080000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2024-11,2025,Q4,Q4 FY2025,Company,churned_arr_usd,2408000.0,USD,flow,ARR lost to logo churn and downsell
+2024-11,2025,Q4,Q4 FY2025,Company,nrr_pct,108.0,percent,rate,Net revenue retention
+2024-11,2025,Q4,Q4 FY2025,Company,gross_margin_pct,68.0,percent,rate,Gross margin
+2024-11,2025,Q4,Q4 FY2025,Company,opex_usd,15400000.0,USD,flow,Operating expenses
+2024-11,2025,Q4,Q4 FY2025,Company,ending_customers,529.0,count,stock,Ending customer count
+2024-11,2025,Q4,Q4 FY2025,Company,pipeline_usd,250000000.0,USD,stock,Qualified pipeline at period end
+2024-11,2025,Q4,Q4 FY2025,Company,win_rate_pct,19.5,percent,rate,Competitive win rate
+2024-11,2025,Q4,Q4 FY2025,Company,cac_usd,48500.0,USD,rate,Customer acquisition cost
+2024-11,2025,Q4,Q4 FY2025,Company,support_tickets,674.8,count,flow,Opened support tickets
+2024-11,2025,Q4,Q4 FY2025,Company,headcount,790.0,count,stock,Ending employee headcount
+2024-12,2025,Q4,Q4 FY2025,Company,revenue_usd,29400000.0,USD,flow,Recognized product and subscription revenue
+2024-12,2025,Q4,Q4 FY2025,Company,arr_usd,418000000.0,USD,stock,Ending annual recurring revenue
+2024-12,2025,Q4,Q4 FY2025,Enterprise,revenue_usd,14112000.0,USD,flow,Recognized product and subscription revenue
+2024-12,2025,Q4,Q4 FY2025,Enterprise,arr_usd,200640000.0,USD,stock,Ending annual recurring revenue
+2024-12,2025,Q4,Q4 FY2025,Mid-Market,revenue_usd,8232000.0,USD,flow,Recognized product and subscription revenue
+2024-12,2025,Q4,Q4 FY2025,Mid-Market,arr_usd,117040000.0,USD,stock,Ending annual recurring revenue
+2024-12,2025,Q4,Q4 FY2025,Cloud,revenue_usd,7056000.0,USD,flow,Recognized product and subscription revenue
+2024-12,2025,Q4,Q4 FY2025,Cloud,arr_usd,100320000.0,USD,stock,Ending annual recurring revenue
+2024-12,2025,Q4,Q4 FY2025,Company,new_logo_acv_usd,6000000.0,USD,flow,Annual contract value from new customers
+2024-12,2025,Q4,Q4 FY2025,Company,expansion_acv_usd,3300000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2024-12,2025,Q4,Q4 FY2025,Company,churned_arr_usd,2580000.0,USD,flow,ARR lost to logo churn and downsell
+2024-12,2025,Q4,Q4 FY2025,Company,nrr_pct,108.0,percent,rate,Net revenue retention
+2024-12,2025,Q4,Q4 FY2025,Company,gross_margin_pct,68.0,percent,rate,Gross margin
+2024-12,2025,Q4,Q4 FY2025,Company,opex_usd,16500000.0,USD,flow,Operating expenses
+2024-12,2025,Q4,Q4 FY2025,Company,ending_customers,529.0,count,stock,Ending customer count
+2024-12,2025,Q4,Q4 FY2025,Company,pipeline_usd,250000000.0,USD,stock,Qualified pipeline at period end
+2024-12,2025,Q4,Q4 FY2025,Company,win_rate_pct,19.5,percent,rate,Competitive win rate
+2024-12,2025,Q4,Q4 FY2025,Company,cac_usd,48500.0,USD,rate,Customer acquisition cost
+2024-12,2025,Q4,Q4 FY2025,Company,support_tickets,723.0,count,flow,Opened support tickets
+2024-12,2025,Q4,Q4 FY2025,Company,headcount,790.0,count,stock,Ending employee headcount
+2025-01,2025,Q4,Q4 FY2025,Company,revenue_usd,41160000.0,USD,flow,Recognized product and subscription revenue
+2025-01,2025,Q4,Q4 FY2025,Company,arr_usd,418000000.0,USD,stock,Ending annual recurring revenue
+2025-01,2025,Q4,Q4 FY2025,Enterprise,revenue_usd,19756800.0,USD,flow,Recognized product and subscription revenue
+2025-01,2025,Q4,Q4 FY2025,Enterprise,arr_usd,200640000.0,USD,stock,Ending annual recurring revenue
+2025-01,2025,Q4,Q4 FY2025,Mid-Market,revenue_usd,11524800.0,USD,flow,Recognized product and subscription revenue
+2025-01,2025,Q4,Q4 FY2025,Mid-Market,arr_usd,117040000.0,USD,stock,Ending annual recurring revenue
+2025-01,2025,Q4,Q4 FY2025,Cloud,revenue_usd,9878400.0,USD,flow,Recognized product and subscription revenue
+2025-01,2025,Q4,Q4 FY2025,Cloud,arr_usd,100320000.0,USD,stock,Ending annual recurring revenue
+2025-01,2025,Q4,Q4 FY2025,Company,new_logo_acv_usd,8400000.0,USD,flow,Annual contract value from new customers
+2025-01,2025,Q4,Q4 FY2025,Company,expansion_acv_usd,4620000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2025-01,2025,Q4,Q4 FY2025,Company,churned_arr_usd,3612000.0,USD,flow,ARR lost to logo churn and downsell
+2025-01,2025,Q4,Q4 FY2025,Company,nrr_pct,108.0,percent,rate,Net revenue retention
+2025-01,2025,Q4,Q4 FY2025,Company,gross_margin_pct,68.0,percent,rate,Gross margin
+2025-01,2025,Q4,Q4 FY2025,Company,opex_usd,23100000.0,USD,flow,Operating expenses
+2025-01,2025,Q4,Q4 FY2025,Company,ending_customers,529.0,count,stock,Ending customer count
+2025-01,2025,Q4,Q4 FY2025,Company,pipeline_usd,250000000.0,USD,stock,Qualified pipeline at period end
+2025-01,2025,Q4,Q4 FY2025,Company,win_rate_pct,19.5,percent,rate,Competitive win rate
+2025-01,2025,Q4,Q4 FY2025,Company,cac_usd,48500.0,USD,rate,Customer acquisition cost
+2025-01,2025,Q4,Q4 FY2025,Company,support_tickets,1012.2,count,flow,Opened support tickets
+2025-01,2025,Q4,Q4 FY2025,Company,headcount,790.0,count,stock,Ending employee headcount
+2025-02,2026,Q1,Q1 FY2026,Company,revenue_usd,33040000.0,USD,flow,Recognized product and subscription revenue
+2025-02,2026,Q1,Q1 FY2026,Company,arr_usd,462000000.0,USD,stock,Ending annual recurring revenue
+2025-02,2026,Q1,Q1 FY2026,Enterprise,revenue_usd,17180800.0,USD,flow,Recognized product and subscription revenue
+2025-02,2026,Q1,Q1 FY2026,Enterprise,arr_usd,240240000.0,USD,stock,Ending annual recurring revenue
+2025-02,2026,Q1,Q1 FY2026,Mid-Market,revenue_usd,8260000.0,USD,flow,Recognized product and subscription revenue
+2025-02,2026,Q1,Q1 FY2026,Mid-Market,arr_usd,115500000.0,USD,stock,Ending annual recurring revenue
+2025-02,2026,Q1,Q1 FY2026,Cloud,revenue_usd,7599200.0,USD,flow,Recognized product and subscription revenue
+2025-02,2026,Q1,Q1 FY2026,Cloud,arr_usd,106260000.0,USD,stock,Ending annual recurring revenue
+2025-02,2026,Q1,Q1 FY2026,Company,new_logo_acv_usd,10080000.0,USD,flow,Annual contract value from new customers
+2025-02,2026,Q1,Q1 FY2026,Company,expansion_acv_usd,5040000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2025-02,2026,Q1,Q1 FY2026,Company,churned_arr_usd,2744000.0,USD,flow,ARR lost to logo churn and downsell
+2025-02,2026,Q1,Q1 FY2026,Company,nrr_pct,111.0,percent,rate,Net revenue retention
+2025-02,2026,Q1,Q1 FY2026,Company,gross_margin_pct,71.4,percent,rate,Gross margin
+2025-02,2026,Q1,Q1 FY2026,Company,opex_usd,16240000.0,USD,flow,Operating expenses
+2025-02,2026,Q1,Q1 FY2026,Company,ending_customers,548.0,count,stock,Ending customer count
+2025-02,2026,Q1,Q1 FY2026,Company,pipeline_usd,340000000.0,USD,stock,Qualified pipeline at period end
+2025-02,2026,Q1,Q1 FY2026,Company,win_rate_pct,28.0,percent,rate,Competitive win rate
+2025-02,2026,Q1,Q1 FY2026,Company,cac_usd,40000.0,USD,rate,Customer acquisition cost
+2025-02,2026,Q1,Q1 FY2026,Company,support_tickets,574.0,count,flow,Opened support tickets
+2025-02,2026,Q1,Q1 FY2026,Company,headcount,810.0,count,stock,Ending employee headcount
+2025-03,2026,Q1,Q1 FY2026,Company,revenue_usd,35400000.0,USD,flow,Recognized product and subscription revenue
+2025-03,2026,Q1,Q1 FY2026,Company,arr_usd,462000000.0,USD,stock,Ending annual recurring revenue
+2025-03,2026,Q1,Q1 FY2026,Enterprise,revenue_usd,18408000.0,USD,flow,Recognized product and subscription revenue
+2025-03,2026,Q1,Q1 FY2026,Enterprise,arr_usd,240240000.0,USD,stock,Ending annual recurring revenue
+2025-03,2026,Q1,Q1 FY2026,Mid-Market,revenue_usd,8850000.0,USD,flow,Recognized product and subscription revenue
+2025-03,2026,Q1,Q1 FY2026,Mid-Market,arr_usd,115500000.0,USD,stock,Ending annual recurring revenue
+2025-03,2026,Q1,Q1 FY2026,Cloud,revenue_usd,8142000.0,USD,flow,Recognized product and subscription revenue
+2025-03,2026,Q1,Q1 FY2026,Cloud,arr_usd,106260000.0,USD,stock,Ending annual recurring revenue
+2025-03,2026,Q1,Q1 FY2026,Company,new_logo_acv_usd,10800000.0,USD,flow,Annual contract value from new customers
+2025-03,2026,Q1,Q1 FY2026,Company,expansion_acv_usd,5400000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2025-03,2026,Q1,Q1 FY2026,Company,churned_arr_usd,2940000.0,USD,flow,ARR lost to logo churn and downsell
+2025-03,2026,Q1,Q1 FY2026,Company,nrr_pct,111.0,percent,rate,Net revenue retention
+2025-03,2026,Q1,Q1 FY2026,Company,gross_margin_pct,71.4,percent,rate,Gross margin
+2025-03,2026,Q1,Q1 FY2026,Company,opex_usd,17400000.0,USD,flow,Operating expenses
+2025-03,2026,Q1,Q1 FY2026,Company,ending_customers,548.0,count,stock,Ending customer count
+2025-03,2026,Q1,Q1 FY2026,Company,pipeline_usd,340000000.0,USD,stock,Qualified pipeline at period end
+2025-03,2026,Q1,Q1 FY2026,Company,win_rate_pct,28.0,percent,rate,Competitive win rate
+2025-03,2026,Q1,Q1 FY2026,Company,cac_usd,40000.0,USD,rate,Customer acquisition cost
+2025-03,2026,Q1,Q1 FY2026,Company,support_tickets,615.0,count,flow,Opened support tickets
+2025-03,2026,Q1,Q1 FY2026,Company,headcount,810.0,count,stock,Ending employee headcount
+2025-04,2026,Q1,Q1 FY2026,Company,revenue_usd,49560000.0,USD,flow,Recognized product and subscription revenue
+2025-04,2026,Q1,Q1 FY2026,Company,arr_usd,462000000.0,USD,stock,Ending annual recurring revenue
+2025-04,2026,Q1,Q1 FY2026,Enterprise,revenue_usd,25771200.0,USD,flow,Recognized product and subscription revenue
+2025-04,2026,Q1,Q1 FY2026,Enterprise,arr_usd,240240000.0,USD,stock,Ending annual recurring revenue
+2025-04,2026,Q1,Q1 FY2026,Mid-Market,revenue_usd,12390000.0,USD,flow,Recognized product and subscription revenue
+2025-04,2026,Q1,Q1 FY2026,Mid-Market,arr_usd,115500000.0,USD,stock,Ending annual recurring revenue
+2025-04,2026,Q1,Q1 FY2026,Cloud,revenue_usd,11398800.0,USD,flow,Recognized product and subscription revenue
+2025-04,2026,Q1,Q1 FY2026,Cloud,arr_usd,106260000.0,USD,stock,Ending annual recurring revenue
+2025-04,2026,Q1,Q1 FY2026,Company,new_logo_acv_usd,15120000.0,USD,flow,Annual contract value from new customers
+2025-04,2026,Q1,Q1 FY2026,Company,expansion_acv_usd,7560000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2025-04,2026,Q1,Q1 FY2026,Company,churned_arr_usd,4116000.0,USD,flow,ARR lost to logo churn and downsell
+2025-04,2026,Q1,Q1 FY2026,Company,nrr_pct,111.0,percent,rate,Net revenue retention
+2025-04,2026,Q1,Q1 FY2026,Company,gross_margin_pct,71.4,percent,rate,Gross margin
+2025-04,2026,Q1,Q1 FY2026,Company,opex_usd,24360000.0,USD,flow,Operating expenses
+2025-04,2026,Q1,Q1 FY2026,Company,ending_customers,548.0,count,stock,Ending customer count
+2025-04,2026,Q1,Q1 FY2026,Company,pipeline_usd,340000000.0,USD,stock,Qualified pipeline at period end
+2025-04,2026,Q1,Q1 FY2026,Company,win_rate_pct,28.0,percent,rate,Competitive win rate
+2025-04,2026,Q1,Q1 FY2026,Company,cac_usd,40000.0,USD,rate,Customer acquisition cost
+2025-04,2026,Q1,Q1 FY2026,Company,support_tickets,861.0,count,flow,Opened support tickets
+2025-04,2026,Q1,Q1 FY2026,Company,headcount,810.0,count,stock,Ending employee headcount
+2025-05,2026,Q2,Q2 FY2026,Company,revenue_usd,31360000.0,USD,flow,Recognized product and subscription revenue
+2025-05,2026,Q2,Q2 FY2026,Company,arr_usd,455000000.0,USD,stock,Ending annual recurring revenue
+2025-05,2026,Q2,Q2 FY2026,Enterprise,revenue_usd,15993600.0,USD,flow,Recognized product and subscription revenue
+2025-05,2026,Q2,Q2 FY2026,Enterprise,arr_usd,232050000.0,USD,stock,Ending annual recurring revenue
+2025-05,2026,Q2,Q2 FY2026,Mid-Market,revenue_usd,7840000.0,USD,flow,Recognized product and subscription revenue
+2025-05,2026,Q2,Q2 FY2026,Mid-Market,arr_usd,113750000.0,USD,stock,Ending annual recurring revenue
+2025-05,2026,Q2,Q2 FY2026,Cloud,revenue_usd,7526400.0,USD,flow,Recognized product and subscription revenue
+2025-05,2026,Q2,Q2 FY2026,Cloud,arr_usd,109200000.0,USD,stock,Ending annual recurring revenue
+2025-05,2026,Q2,Q2 FY2026,Company,new_logo_acv_usd,6720000.0,USD,flow,Annual contract value from new customers
+2025-05,2026,Q2,Q2 FY2026,Company,expansion_acv_usd,3500000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2025-05,2026,Q2,Q2 FY2026,Company,churned_arr_usd,2296000.0,USD,flow,ARR lost to logo churn and downsell
+2025-05,2026,Q2,Q2 FY2026,Company,nrr_pct,109.0,percent,rate,Net revenue retention
+2025-05,2026,Q2,Q2 FY2026,Company,gross_margin_pct,70.8,percent,rate,Gross margin
+2025-05,2026,Q2,Q2 FY2026,Company,opex_usd,17080000.0,USD,flow,Operating expenses
+2025-05,2026,Q2,Q2 FY2026,Company,ending_customers,541.0,count,stock,Ending customer count
+2025-05,2026,Q2,Q2 FY2026,Company,pipeline_usd,275000000.0,USD,stock,Qualified pipeline at period end
+2025-05,2026,Q2,Q2 FY2026,Company,win_rate_pct,24.0,percent,rate,Competitive win rate
+2025-05,2026,Q2,Q2 FY2026,Company,cac_usd,46000.0,USD,rate,Customer acquisition cost
+2025-05,2026,Q2,Q2 FY2026,Company,support_tickets,610.4,count,flow,Opened support tickets
+2025-05,2026,Q2,Q2 FY2026,Company,headcount,835.0,count,stock,Ending employee headcount
+2025-06,2026,Q2,Q2 FY2026,Company,revenue_usd,33600000.0,USD,flow,Recognized product and subscription revenue
+2025-06,2026,Q2,Q2 FY2026,Company,arr_usd,455000000.0,USD,stock,Ending annual recurring revenue
+2025-06,2026,Q2,Q2 FY2026,Enterprise,revenue_usd,17136000.0,USD,flow,Recognized product and subscription revenue
+2025-06,2026,Q2,Q2 FY2026,Enterprise,arr_usd,232050000.0,USD,stock,Ending annual recurring revenue
+2025-06,2026,Q2,Q2 FY2026,Mid-Market,revenue_usd,8400000.0,USD,flow,Recognized product and subscription revenue
+2025-06,2026,Q2,Q2 FY2026,Mid-Market,arr_usd,113750000.0,USD,stock,Ending annual recurring revenue
+2025-06,2026,Q2,Q2 FY2026,Cloud,revenue_usd,8064000.0,USD,flow,Recognized product and subscription revenue
+2025-06,2026,Q2,Q2 FY2026,Cloud,arr_usd,109200000.0,USD,stock,Ending annual recurring revenue
+2025-06,2026,Q2,Q2 FY2026,Company,new_logo_acv_usd,7200000.0,USD,flow,Annual contract value from new customers
+2025-06,2026,Q2,Q2 FY2026,Company,expansion_acv_usd,3750000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2025-06,2026,Q2,Q2 FY2026,Company,churned_arr_usd,2460000.0,USD,flow,ARR lost to logo churn and downsell
+2025-06,2026,Q2,Q2 FY2026,Company,nrr_pct,109.0,percent,rate,Net revenue retention
+2025-06,2026,Q2,Q2 FY2026,Company,gross_margin_pct,70.8,percent,rate,Gross margin
+2025-06,2026,Q2,Q2 FY2026,Company,opex_usd,18300000.0,USD,flow,Operating expenses
+2025-06,2026,Q2,Q2 FY2026,Company,ending_customers,541.0,count,stock,Ending customer count
+2025-06,2026,Q2,Q2 FY2026,Company,pipeline_usd,275000000.0,USD,stock,Qualified pipeline at period end
+2025-06,2026,Q2,Q2 FY2026,Company,win_rate_pct,24.0,percent,rate,Competitive win rate
+2025-06,2026,Q2,Q2 FY2026,Company,cac_usd,46000.0,USD,rate,Customer acquisition cost
+2025-06,2026,Q2,Q2 FY2026,Company,support_tickets,654.0,count,flow,Opened support tickets
+2025-06,2026,Q2,Q2 FY2026,Company,headcount,835.0,count,stock,Ending employee headcount
+2025-07,2026,Q2,Q2 FY2026,Company,revenue_usd,47040000.0,USD,flow,Recognized product and subscription revenue
+2025-07,2026,Q2,Q2 FY2026,Company,arr_usd,455000000.0,USD,stock,Ending annual recurring revenue
+2025-07,2026,Q2,Q2 FY2026,Enterprise,revenue_usd,23990400.0,USD,flow,Recognized product and subscription revenue
+2025-07,2026,Q2,Q2 FY2026,Enterprise,arr_usd,232050000.0,USD,stock,Ending annual recurring revenue
+2025-07,2026,Q2,Q2 FY2026,Mid-Market,revenue_usd,11760000.0,USD,flow,Recognized product and subscription revenue
+2025-07,2026,Q2,Q2 FY2026,Mid-Market,arr_usd,113750000.0,USD,stock,Ending annual recurring revenue
+2025-07,2026,Q2,Q2 FY2026,Cloud,revenue_usd,11289600.0,USD,flow,Recognized product and subscription revenue
+2025-07,2026,Q2,Q2 FY2026,Cloud,arr_usd,109200000.0,USD,stock,Ending annual recurring revenue
+2025-07,2026,Q2,Q2 FY2026,Company,new_logo_acv_usd,10080000.0,USD,flow,Annual contract value from new customers
+2025-07,2026,Q2,Q2 FY2026,Company,expansion_acv_usd,5250000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2025-07,2026,Q2,Q2 FY2026,Company,churned_arr_usd,3444000.0,USD,flow,ARR lost to logo churn and downsell
+2025-07,2026,Q2,Q2 FY2026,Company,nrr_pct,109.0,percent,rate,Net revenue retention
+2025-07,2026,Q2,Q2 FY2026,Company,gross_margin_pct,70.8,percent,rate,Gross margin
+2025-07,2026,Q2,Q2 FY2026,Company,opex_usd,25620000.0,USD,flow,Operating expenses
+2025-07,2026,Q2,Q2 FY2026,Company,ending_customers,541.0,count,stock,Ending customer count
+2025-07,2026,Q2,Q2 FY2026,Company,pipeline_usd,275000000.0,USD,stock,Qualified pipeline at period end
+2025-07,2026,Q2,Q2 FY2026,Company,win_rate_pct,24.0,percent,rate,Competitive win rate
+2025-07,2026,Q2,Q2 FY2026,Company,cac_usd,46000.0,USD,rate,Customer acquisition cost
+2025-07,2026,Q2,Q2 FY2026,Company,support_tickets,915.6,count,flow,Opened support tickets
+2025-07,2026,Q2,Q2 FY2026,Company,headcount,835.0,count,stock,Ending employee headcount
+2025-08,2026,Q3,Q3 FY2026,Company,revenue_usd,30240000.0,USD,flow,Recognized product and subscription revenue
+2025-08,2026,Q3,Q3 FY2026,Company,arr_usd,448000000.0,USD,stock,Ending annual recurring revenue
+2025-08,2026,Q3,Q3 FY2026,Enterprise,revenue_usd,15120000.0,USD,flow,Recognized product and subscription revenue
+2025-08,2026,Q3,Q3 FY2026,Enterprise,arr_usd,224000000.0,USD,stock,Ending annual recurring revenue
+2025-08,2026,Q3,Q3 FY2026,Mid-Market,revenue_usd,7560000.0,USD,flow,Recognized product and subscription revenue
+2025-08,2026,Q3,Q3 FY2026,Mid-Market,arr_usd,112000000.0,USD,stock,Ending annual recurring revenue
+2025-08,2026,Q3,Q3 FY2026,Cloud,revenue_usd,7560000.0,USD,flow,Recognized product and subscription revenue
+2025-08,2026,Q3,Q3 FY2026,Cloud,arr_usd,112000000.0,USD,stock,Ending annual recurring revenue
+2025-08,2026,Q3,Q3 FY2026,Company,new_logo_acv_usd,5880000.0,USD,flow,Annual contract value from new customers
+2025-08,2026,Q3,Q3 FY2026,Company,expansion_acv_usd,3080000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2025-08,2026,Q3,Q3 FY2026,Company,churned_arr_usd,2072000.0,USD,flow,ARR lost to logo churn and downsell
+2025-08,2026,Q3,Q3 FY2026,Company,nrr_pct,107.0,percent,rate,Net revenue retention
+2025-08,2026,Q3,Q3 FY2026,Company,gross_margin_pct,66.1,percent,rate,Gross margin
+2025-08,2026,Q3,Q3 FY2026,Company,opex_usd,16660000.0,USD,flow,Operating expenses
+2025-08,2026,Q3,Q3 FY2026,Company,ending_customers,536.0,count,stock,Ending customer count
+2025-08,2026,Q3,Q3 FY2026,Company,pipeline_usd,260000000.0,USD,stock,Qualified pipeline at period end
+2025-08,2026,Q3,Q3 FY2026,Company,win_rate_pct,23.0,percent,rate,Competitive win rate
+2025-08,2026,Q3,Q3 FY2026,Company,cac_usd,47500.0,USD,rate,Customer acquisition cost
+2025-08,2026,Q3,Q3 FY2026,Company,support_tickets,739.2,count,flow,Opened support tickets
+2025-08,2026,Q3,Q3 FY2026,Company,headcount,848.0,count,stock,Ending employee headcount
+2025-09,2026,Q3,Q3 FY2026,Company,revenue_usd,32400000.0,USD,flow,Recognized product and subscription revenue
+2025-09,2026,Q3,Q3 FY2026,Company,arr_usd,448000000.0,USD,stock,Ending annual recurring revenue
+2025-09,2026,Q3,Q3 FY2026,Enterprise,revenue_usd,16200000.0,USD,flow,Recognized product and subscription revenue
+2025-09,2026,Q3,Q3 FY2026,Enterprise,arr_usd,224000000.0,USD,stock,Ending annual recurring revenue
+2025-09,2026,Q3,Q3 FY2026,Mid-Market,revenue_usd,8100000.0,USD,flow,Recognized product and subscription revenue
+2025-09,2026,Q3,Q3 FY2026,Mid-Market,arr_usd,112000000.0,USD,stock,Ending annual recurring revenue
+2025-09,2026,Q3,Q3 FY2026,Cloud,revenue_usd,8100000.0,USD,flow,Recognized product and subscription revenue
+2025-09,2026,Q3,Q3 FY2026,Cloud,arr_usd,112000000.0,USD,stock,Ending annual recurring revenue
+2025-09,2026,Q3,Q3 FY2026,Company,new_logo_acv_usd,6300000.0,USD,flow,Annual contract value from new customers
+2025-09,2026,Q3,Q3 FY2026,Company,expansion_acv_usd,3300000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2025-09,2026,Q3,Q3 FY2026,Company,churned_arr_usd,2220000.0,USD,flow,ARR lost to logo churn and downsell
+2025-09,2026,Q3,Q3 FY2026,Company,nrr_pct,107.0,percent,rate,Net revenue retention
+2025-09,2026,Q3,Q3 FY2026,Company,gross_margin_pct,66.1,percent,rate,Gross margin
+2025-09,2026,Q3,Q3 FY2026,Company,opex_usd,17850000.0,USD,flow,Operating expenses
+2025-09,2026,Q3,Q3 FY2026,Company,ending_customers,536.0,count,stock,Ending customer count
+2025-09,2026,Q3,Q3 FY2026,Company,pipeline_usd,260000000.0,USD,stock,Qualified pipeline at period end
+2025-09,2026,Q3,Q3 FY2026,Company,win_rate_pct,23.0,percent,rate,Competitive win rate
+2025-09,2026,Q3,Q3 FY2026,Company,cac_usd,47500.0,USD,rate,Customer acquisition cost
+2025-09,2026,Q3,Q3 FY2026,Company,support_tickets,792.0,count,flow,Opened support tickets
+2025-09,2026,Q3,Q3 FY2026,Company,headcount,848.0,count,stock,Ending employee headcount
+2025-10,2026,Q3,Q3 FY2026,Company,revenue_usd,45360000.0,USD,flow,Recognized product and subscription revenue
+2025-10,2026,Q3,Q3 FY2026,Company,arr_usd,448000000.0,USD,stock,Ending annual recurring revenue
+2025-10,2026,Q3,Q3 FY2026,Enterprise,revenue_usd,22680000.0,USD,flow,Recognized product and subscription revenue
+2025-10,2026,Q3,Q3 FY2026,Enterprise,arr_usd,224000000.0,USD,stock,Ending annual recurring revenue
+2025-10,2026,Q3,Q3 FY2026,Mid-Market,revenue_usd,11340000.0,USD,flow,Recognized product and subscription revenue
+2025-10,2026,Q3,Q3 FY2026,Mid-Market,arr_usd,112000000.0,USD,stock,Ending annual recurring revenue
+2025-10,2026,Q3,Q3 FY2026,Cloud,revenue_usd,11340000.0,USD,flow,Recognized product and subscription revenue
+2025-10,2026,Q3,Q3 FY2026,Cloud,arr_usd,112000000.0,USD,stock,Ending annual recurring revenue
+2025-10,2026,Q3,Q3 FY2026,Company,new_logo_acv_usd,8820000.0,USD,flow,Annual contract value from new customers
+2025-10,2026,Q3,Q3 FY2026,Company,expansion_acv_usd,4620000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2025-10,2026,Q3,Q3 FY2026,Company,churned_arr_usd,3108000.0,USD,flow,ARR lost to logo churn and downsell
+2025-10,2026,Q3,Q3 FY2026,Company,nrr_pct,107.0,percent,rate,Net revenue retention
+2025-10,2026,Q3,Q3 FY2026,Company,gross_margin_pct,66.1,percent,rate,Gross margin
+2025-10,2026,Q3,Q3 FY2026,Company,opex_usd,24990000.0,USD,flow,Operating expenses
+2025-10,2026,Q3,Q3 FY2026,Company,ending_customers,536.0,count,stock,Ending customer count
+2025-10,2026,Q3,Q3 FY2026,Company,pipeline_usd,260000000.0,USD,stock,Qualified pipeline at period end
+2025-10,2026,Q3,Q3 FY2026,Company,win_rate_pct,23.0,percent,rate,Competitive win rate
+2025-10,2026,Q3,Q3 FY2026,Company,cac_usd,47500.0,USD,rate,Customer acquisition cost
+2025-10,2026,Q3,Q3 FY2026,Company,support_tickets,1108.8,count,flow,Opened support tickets
+2025-10,2026,Q3,Q3 FY2026,Company,headcount,848.0,count,stock,Ending employee headcount
+2025-11,2026,Q4,Q4 FY2026,Company,revenue_usd,38080000.0,USD,flow,Recognized product and subscription revenue
+2025-11,2026,Q4,Q4 FY2026,Company,arr_usd,512000000.0,USD,stock,Ending annual recurring revenue
+2025-11,2026,Q4,Q4 FY2026,Enterprise,revenue_usd,20182400.0,USD,flow,Recognized product and subscription revenue
+2025-11,2026,Q4,Q4 FY2026,Enterprise,arr_usd,271360000.0,USD,stock,Ending annual recurring revenue
+2025-11,2026,Q4,Q4 FY2026,Mid-Market,revenue_usd,8758400.0,USD,flow,Recognized product and subscription revenue
+2025-11,2026,Q4,Q4 FY2026,Mid-Market,arr_usd,117760000.0,USD,stock,Ending annual recurring revenue
+2025-11,2026,Q4,Q4 FY2026,Cloud,revenue_usd,9139200.0,USD,flow,Recognized product and subscription revenue
+2025-11,2026,Q4,Q4 FY2026,Cloud,arr_usd,122880000.0,USD,stock,Ending annual recurring revenue
+2025-11,2026,Q4,Q4 FY2026,Company,new_logo_acv_usd,13440000.0,USD,flow,Annual contract value from new customers
+2025-11,2026,Q4,Q4 FY2026,Company,expansion_acv_usd,6160000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2025-11,2026,Q4,Q4 FY2026,Company,churned_arr_usd,1540000.0,USD,flow,ARR lost to logo churn and downsell
+2025-11,2026,Q4,Q4 FY2026,Company,nrr_pct,119.0,percent,rate,Net revenue retention
+2025-11,2026,Q4,Q4 FY2026,Company,gross_margin_pct,72.2,percent,rate,Gross margin
+2025-11,2026,Q4,Q4 FY2026,Company,opex_usd,17920000.0,USD,flow,Operating expenses
+2025-11,2026,Q4,Q4 FY2026,Company,ending_customers,587.0,count,stock,Ending customer count
+2025-11,2026,Q4,Q4 FY2026,Company,pipeline_usd,390000000.0,USD,stock,Qualified pipeline at period end
+2025-11,2026,Q4,Q4 FY2026,Company,win_rate_pct,32.5,percent,rate,Competitive win rate
+2025-11,2026,Q4,Q4 FY2026,Company,cac_usd,38000.0,USD,rate,Customer acquisition cost
+2025-11,2026,Q4,Q4 FY2026,Company,support_tickets,621.6,count,flow,Opened support tickets
+2025-11,2026,Q4,Q4 FY2026,Company,headcount,870.0,count,stock,Ending employee headcount
+2025-12,2026,Q4,Q4 FY2026,Company,revenue_usd,40800000.0,USD,flow,Recognized product and subscription revenue
+2025-12,2026,Q4,Q4 FY2026,Company,arr_usd,512000000.0,USD,stock,Ending annual recurring revenue
+2025-12,2026,Q4,Q4 FY2026,Enterprise,revenue_usd,21624000.0,USD,flow,Recognized product and subscription revenue
+2025-12,2026,Q4,Q4 FY2026,Enterprise,arr_usd,271360000.0,USD,stock,Ending annual recurring revenue
+2025-12,2026,Q4,Q4 FY2026,Mid-Market,revenue_usd,9384000.0,USD,flow,Recognized product and subscription revenue
+2025-12,2026,Q4,Q4 FY2026,Mid-Market,arr_usd,117760000.0,USD,stock,Ending annual recurring revenue
+2025-12,2026,Q4,Q4 FY2026,Cloud,revenue_usd,9792000.0,USD,flow,Recognized product and subscription revenue
+2025-12,2026,Q4,Q4 FY2026,Cloud,arr_usd,122880000.0,USD,stock,Ending annual recurring revenue
+2025-12,2026,Q4,Q4 FY2026,Company,new_logo_acv_usd,14400000.0,USD,flow,Annual contract value from new customers
+2025-12,2026,Q4,Q4 FY2026,Company,expansion_acv_usd,6600000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2025-12,2026,Q4,Q4 FY2026,Company,churned_arr_usd,1650000.0,USD,flow,ARR lost to logo churn and downsell
+2025-12,2026,Q4,Q4 FY2026,Company,nrr_pct,119.0,percent,rate,Net revenue retention
+2025-12,2026,Q4,Q4 FY2026,Company,gross_margin_pct,72.2,percent,rate,Gross margin
+2025-12,2026,Q4,Q4 FY2026,Company,opex_usd,19200000.0,USD,flow,Operating expenses
+2025-12,2026,Q4,Q4 FY2026,Company,ending_customers,587.0,count,stock,Ending customer count
+2025-12,2026,Q4,Q4 FY2026,Company,pipeline_usd,390000000.0,USD,stock,Qualified pipeline at period end
+2025-12,2026,Q4,Q4 FY2026,Company,win_rate_pct,32.5,percent,rate,Competitive win rate
+2025-12,2026,Q4,Q4 FY2026,Company,cac_usd,38000.0,USD,rate,Customer acquisition cost
+2025-12,2026,Q4,Q4 FY2026,Company,support_tickets,666.0,count,flow,Opened support tickets
+2025-12,2026,Q4,Q4 FY2026,Company,headcount,870.0,count,stock,Ending employee headcount
+2026-01,2026,Q4,Q4 FY2026,Company,revenue_usd,57120000.0,USD,flow,Recognized product and subscription revenue
+2026-01,2026,Q4,Q4 FY2026,Company,arr_usd,512000000.0,USD,stock,Ending annual recurring revenue
+2026-01,2026,Q4,Q4 FY2026,Enterprise,revenue_usd,30273600.0,USD,flow,Recognized product and subscription revenue
+2026-01,2026,Q4,Q4 FY2026,Enterprise,arr_usd,271360000.0,USD,stock,Ending annual recurring revenue
+2026-01,2026,Q4,Q4 FY2026,Mid-Market,revenue_usd,13137600.0,USD,flow,Recognized product and subscription revenue
+2026-01,2026,Q4,Q4 FY2026,Mid-Market,arr_usd,117760000.0,USD,stock,Ending annual recurring revenue
+2026-01,2026,Q4,Q4 FY2026,Cloud,revenue_usd,13708800.0,USD,flow,Recognized product and subscription revenue
+2026-01,2026,Q4,Q4 FY2026,Cloud,arr_usd,122880000.0,USD,stock,Ending annual recurring revenue
+2026-01,2026,Q4,Q4 FY2026,Company,new_logo_acv_usd,20160000.0,USD,flow,Annual contract value from new customers
+2026-01,2026,Q4,Q4 FY2026,Company,expansion_acv_usd,9240000.0,USD,flow,Upsell and cross-sell ACV from existing customers
+2026-01,2026,Q4,Q4 FY2026,Company,churned_arr_usd,2310000.0,USD,flow,ARR lost to logo churn and downsell
+2026-01,2026,Q4,Q4 FY2026,Company,nrr_pct,119.0,percent,rate,Net revenue retention
+2026-01,2026,Q4,Q4 FY2026,Company,gross_margin_pct,72.2,percent,rate,Gross margin
+2026-01,2026,Q4,Q4 FY2026,Company,opex_usd,26880000.0,USD,flow,Operating expenses
+2026-01,2026,Q4,Q4 FY2026,Company,ending_customers,587.0,count,stock,Ending customer count
+2026-01,2026,Q4,Q4 FY2026,Company,pipeline_usd,390000000.0,USD,stock,Qualified pipeline at period end
+2026-01,2026,Q4,Q4 FY2026,Company,win_rate_pct,32.5,percent,rate,Competitive win rate
+2026-01,2026,Q4,Q4 FY2026,Company,cac_usd,38000.0,USD,rate,Customer acquisition cost
+2026-01,2026,Q4,Q4 FY2026,Company,support_tickets,932.4,count,flow,Opened support tickets
+2026-01,2026,Q4,Q4 FY2026,Company,headcount,870.0,count,stock,Ending employee headcount
