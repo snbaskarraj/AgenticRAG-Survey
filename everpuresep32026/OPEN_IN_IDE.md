@@ -44,3 +44,7 @@ UIs:
 
 - Streamlit: http://localhost:8501
 - Gradio: http://localhost:7860
+
+On interview day, keep the synthetic files. In the Streamlit sidebar (or
+Gradio top panel) paste the folder they give you, or upload the two files.
+**Restore synthetic data** switches back. Details: `data/interview/README.md`.
