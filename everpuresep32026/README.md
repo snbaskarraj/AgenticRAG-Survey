@@ -24,8 +24,10 @@ everpuresep32026/                      ← open this in Cursor / VS Code
 ├── requirements.txt
 ├── pyproject.toml
 ├── data/
-│   ├── metrics.csv                    ← business metrics
-│   ├── events.csv                     ← business events
+│   ├── metrics.csv                    ← synthetic metrics (keep)
+│   ├── events.csv                     ← synthetic events (keep)
+│   ├── interview/                     ← drop interview-day files here
+│   ├── uploads/                       ← UI uploads land here
 │   └── generate_data.py
 ├── src/finagent/                      ← LLM backend + data tools
 │   ├── agent.py
@@ -108,5 +110,6 @@ DataStore  ← metrics.csv + events.csv
 
 Fiscal year starts 1 February. Q1 FY2026 = Feb–Apr 2025.
 
-When the interview CSVs arrive, replace `data/metrics.csv` and
-`data/events.csv` (column names are aliased).
+On interview day, **do not replace the synthetic CSVs**. Paste the folder
+they give you (or upload the two files) in the Streamlit/Gradio sidebar.
+See `data/interview/README.md`.

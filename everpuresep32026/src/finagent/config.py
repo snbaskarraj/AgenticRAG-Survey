@@ -12,8 +12,32 @@ DEFAULT_DATA_DIR = PACKAGE_ROOT / "data"
 
 
 def data_dir() -> Path:
-    override = os.getenv("FINAGENT_DATA_DIR")
-    return Path(override) if override else DEFAULT_DATA_DIR
+    return DEFAULT_DATA_DIR
+
+
+def data_dir_override() -> Path | None:
+    value = os.getenv("FINAGENT_DATA_DIR")
+    return Path(value) if value else None
+
+
+def metrics_path_override() -> Path | None:
+    value = os.getenv("FINAGENT_METRICS_PATH")
+    return Path(value) if value else None
+
+
+def events_path_override() -> Path | None:
+    value = os.getenv("FINAGENT_EVENTS_PATH")
+    return Path(value) if value else None
+
+
+def interview_dir() -> Path:
+    override = os.getenv("FINAGENT_INTERVIEW_DIR")
+    return Path(override) if override else DEFAULT_DATA_DIR / "interview"
+
+
+def upload_dir() -> Path:
+    override = os.getenv("FINAGENT_UPLOAD_DIR")
+    return Path(override) if override else DEFAULT_DATA_DIR / "uploads"
 
 
 def max_tool_rounds() -> int:

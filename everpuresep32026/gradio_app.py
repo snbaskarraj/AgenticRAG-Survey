@@ -15,12 +15,30 @@ if str(SRC) not in sys.path:
 
 from finagent.agent import FinanceAgent
 from finagent.config import active_provider
+from finagent.datasets import activate_files, activate_folder, activate_synthetic
 from finagent.samples import SAMPLE_QUESTIONS
 from finagent.store import DataStore
 
-store = DataStore()
-agent = FinanceAgent(store)
-catalog = store.catalog()
+
+class Runtime:
+    def __init__(self) -> None:
+        self.reload()
+
+    def reload(self) -> None:
+        self.store = DataStore()
+        self.agent = FinanceAgent(self.store)
+
+    def status_line(self) -> str:
+        catalog = self.store.catalog()
+        return (
+            f"source={catalog.get('source')} · provider={active_provider()} · "
+            f"metrics={Path(catalog['metrics_path']).name} · "
+            f"events={Path(catalog['events_path']).name} · "
+            f"{catalog['metric_count']} metrics / {catalog['event_count']} events"
+        )
+
+
+rt = Runtime()
 
 
 def _history_for_agent(history: list) -> list[dict[str, str]]:
@@ -41,31 +59,80 @@ def _history_for_agent(history: list) -> list[dict[str, str]]:
 
 
 def reply(message: str, history: list):
-    response = agent.ask(message, history=_history_for_agent(history))
+    response = rt.agent.ask(message, history=_history_for_agent(history))
     traces = json.dumps(response.traces, indent=2, default=str)
     meta = (
-        f"provider={response.provider} · model={response.model} · "
-        f"tools={len(response.traces)} · grounded={response.requirement_check()['used_data_tool']}"
+        f"{rt.status_line()} · tools={len(response.traces)} · "
+        f"grounded={response.requirement_check()['used_data_tool']}"
     )
     return response.answer, traces, meta
+
+
+def _load_folder(folder: str):
+    if not folder or not str(folder).strip():
+        return rt.status_line(), "Enter the folder path they give you."
+    try:
+        activate_folder(folder)
+        rt.reload()
+        return rt.status_line(), f"Loaded datasets from {folder}. Synthetic files were not changed."
+    except Exception as exc:
+        return rt.status_line(), str(exc)
+
+
+def _file_path(file_obj):
+    if file_obj is None:
+        return None
+    if isinstance(file_obj, (str, Path)):
+        return file_obj
+    return getattr(file_obj, "name", None) or str(file_obj)
+
+
+def _load_uploads(metrics_file, events_file):
+    metrics_file = _file_path(metrics_file)
+    events_file = _file_path(events_file)
+    if metrics_file is None or events_file is None:
+        return rt.status_line(), "Upload both a metrics file and an events file."
+    try:
+        activate_files(metrics_file, events_file)
+        rt.reload()
+        return rt.status_line(), "Interview files loaded. Synthetic CSVs were not overwritten."
+    except Exception as exc:
+        return rt.status_line(), str(exc)
+
+
+def _restore_synthetic():
+    activate_synthetic()
+    rt.reload()
+    return rt.status_line(), "Restored built-in synthetic metrics and events."
 
 
 def build_demo() -> gr.Blocks:
     with gr.Blocks(title="AetherData Finance Agent") as demo:
         gr.Markdown(
-            f"""
+            """
 # AetherData finance analyst
-Everpure hands-on agentic exercise. Same backend as the Streamlit app.
-
-**Requirements covered:** chat UI · LLM-capable backend (`{active_provider()}`) ·
-tool access to metrics/events · answers grounded in the CSVs.
-
-Fiscal calendar: {catalog["fiscal_calendar"]}.
+Same backend as the Streamlit app. Synthetic data is the default.
+On interview day, load the two files they give you — do not replace the code.
             """
         )
+        source = gr.Textbox(label="Active dataset", value=rt.status_line(), interactive=False)
+        notice = gr.Textbox(label="Load status", interactive=False)
+        with gr.Row():
+            folder = gr.Textbox(label="Interview folder path", placeholder="/path/they/give/you")
+            use_folder = gr.Button("Use this folder")
+        with gr.Row():
+            metrics_file = gr.File(label="Upload metrics file")
+            events_file = gr.File(label="Upload events file")
+            load_uploads = gr.Button("Load uploaded files")
+        restore = gr.Button("Restore synthetic data")
+
+        use_folder.click(_load_folder, folder, [source, notice])
+        load_uploads.click(_load_uploads, [metrics_file, events_file], [source, notice])
+        restore.click(_restore_synthetic, None, [source, notice])
+
         with gr.Row():
             with gr.Column(scale=3):
-                chatbot = gr.Chatbot(label="Chat", height=460)
+                chatbot = gr.Chatbot(label="Chat", height=420)
                 question = gr.Textbox(
                     label="Ask about the supplied datasets",
                     placeholder="What was the revenue in Q1 FY2026?",

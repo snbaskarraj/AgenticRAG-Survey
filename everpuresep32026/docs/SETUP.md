@@ -88,18 +88,32 @@ python3 ask.py "Why did win rate drop in Q4 FY2025?" --show-traces
 Upload `data/metrics.csv` and `data/events.csv` into the notebook folder
 if you are not cloning the repo.
 
-## 5. Swap in the interview datasets
+## 5. Interview-day files (keep the synthetic CSVs)
 
-Thirty minutes before the call you will receive two real files. Then:
+The code and `data/metrics.csv` / `data/events.csv` stay intact.
+
+When they give you a folder or two files:
+
+1. In Streamlit (http://localhost:8501) or Gradio (http://localhost:7860),
+   open the sidebar / top panel.
+2. Paste the **folder path they give you** and click **Use this folder**,
+   **or** upload the two files.
+3. Ask the same questions again (`What was the revenue in Q1 FY2026?`,
+   a trend, an anomaly).
+4. Click **Restore synthetic data** if you want the demo files back.
+
+CLI / env alternative:
 
 ```bash
-# replace these two files, keep the names or set FINAGENT_DATA_DIR
-cp /path/to/their_metrics.csv data/metrics.csv
-cp /path/to/their_events.csv  data/events.csv
+export FINAGENT_DATA_DIR="/path/they/give/you"
+# or
+export FINAGENT_METRICS_PATH="/path/metrics.csv"
+export FINAGENT_EVENTS_PATH="/path/events.csv"
 ```
 
-The loader aliases common columns (`date`/`month`, `kpi`/`metric`,
-`value`/`amount`). Restart Streamlit/Gradio after replacing files.
+You can also copy the two files into `data/interview/` (do not overwrite
+`data/metrics.csv` or `data/events.csv`). Column names are aliased;
+wide KPI tables are melted automatically.
 
 ## Ports
 

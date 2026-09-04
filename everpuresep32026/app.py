@@ -15,6 +15,7 @@ if str(SRC) not in sys.path:
 
 from finagent.agent import FinanceAgent  # noqa: E402
 from finagent.config import active_provider  # noqa: E402
+from finagent.datasets import activate_files, activate_folder, activate_synthetic, resolve_datasets  # noqa: E402
 from finagent.prompts import greeting  # noqa: E402
 from finagent.samples import SAMPLE_QUESTIONS  # noqa: E402
 from finagent.store import DataStore  # noqa: E402
@@ -53,14 +54,24 @@ def _inject_css() -> None:
     )
 
 
-@st.cache_resource
-def get_store() -> DataStore:
-    return DataStore()
+def _runtime() -> tuple[DataStore, FinanceAgent]:
+    ref = resolve_datasets()
+    key = ref.fingerprint()
+    if st.session_state.get("dataset_key") != key or "store" not in st.session_state:
+        store = DataStore()
+        st.session_state.store = store
+        st.session_state.agent = FinanceAgent(store)
+        st.session_state.dataset_key = key
+    return st.session_state.store, st.session_state.agent
 
 
-@st.cache_resource
-def get_agent() -> FinanceAgent:
-    return FinanceAgent(get_store())
+def _save_upload(uploaded, dest_name: str) -> Path:
+    dest_dir = ROOT / "data" / "uploads"
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    suffix = Path(uploaded.name).suffix or ".csv"
+    dest = dest_dir / f"{dest_name}{suffix}"
+    dest.write_bytes(uploaded.getbuffer())
+    return dest
 
 
 def _format_trace(trace: dict) -> None:
@@ -70,8 +81,7 @@ def _format_trace(trace: dict) -> None:
 
 def main() -> None:
     _inject_css()
-    store = get_store()
-    agent = get_agent()
+    store, agent = _runtime()
     catalog = store.catalog()
 
     if "messages" not in st.session_state:
@@ -81,13 +91,53 @@ def main() -> None:
 
     with st.sidebar:
         st.markdown("### AetherData")
-        st.caption("Fictional data-platform company used for the Everpure agentic exercise.")
+        st.caption("Synthetic data is the default. On interview day, load the two files they give you — the agent code stays the same.")
         st.markdown(
             f'<span class="chip">{active_provider()}</span>'
+            f'<span class="chip">{catalog.get("source", "synthetic")}</span>'
             f'<span class="chip">{catalog["metric_count"]} metrics</span>'
             f'<span class="chip">{catalog["event_count"]} events</span>',
             unsafe_allow_html=True,
         )
+        st.caption(f"Metrics file: `{Path(catalog['metrics_path']).name}`")
+        st.caption(f"Events file: `{Path(catalog['events_path']).name}`")
+
+        st.markdown("**Interview-day datasets**")
+        folder = st.text_input(
+            "Folder they give you",
+            placeholder="/path/to/interview/data",
+            help="Directory that contains the metrics and events files.",
+        )
+        if st.button("Use this folder", use_container_width=True):
+            try:
+                activate_folder(folder)
+                st.session_state.pop("store", None)
+                st.session_state.pop("dataset_key", None)
+                st.success(f"Loaded datasets from {folder}")
+                st.rerun()
+            except Exception as exc:
+                st.error(str(exc))
+        metrics_upload = st.file_uploader("Upload metrics file", type=["csv", "xlsx", "xls", "json", "parquet"])
+        events_upload = st.file_uploader("Upload events file", type=["csv", "xlsx", "xls", "json", "parquet"])
+        if st.button("Load uploaded files", use_container_width=True):
+            if not metrics_upload or not events_upload:
+                st.error("Upload both a metrics file and an events file.")
+            else:
+                try:
+                    metrics_path = _save_upload(metrics_upload, "metrics")
+                    events_path = _save_upload(events_upload, "events")
+                    activate_files(metrics_path, events_path)
+                    st.session_state.pop("store", None)
+                    st.session_state.pop("dataset_key", None)
+                    st.success("Interview files loaded. Synthetic CSVs were not overwritten.")
+                    st.rerun()
+                except Exception as exc:
+                    st.error(str(exc))
+        if st.button("Restore synthetic data", use_container_width=True):
+            activate_synthetic()
+            st.session_state.pop("store", None)
+            st.session_state.pop("dataset_key", None)
+            st.rerun()
         st.write("")
         st.markdown("**Fiscal calendar**")
         st.caption(catalog["fiscal_calendar"])
@@ -208,11 +258,12 @@ def main() -> None:
             Metrics answer “what changed”. Events answer “what was happening then”.
             `explain_change` joins a metric delta to nearby events without claiming causation.
 
-            **Swapping in the interview files**
+            **Interview-day files**
 
-            Replace `data/metrics.csv` and `data/events.csv`, or point `FINAGENT_DATA_DIR`
-            at a folder that contains them. Column names are aliased, so `date`/`month`,
-            `kpi`/`metric`, and `value`/`amount` all load.
+            Keep the synthetic CSVs. Load the two files they give you from the
+            sidebar: paste the folder path, upload the files, or drop them in
+            `data/interview/`. Column names are aliased (`date`/`month`,
+            `kpi`/`metric`, `value`/`amount`). Wide KPI tables are melted automatically.
             """
         )
         st.code(json.dumps(catalog, indent=2, default=str)[:1800] + "\n…")

@@ -1,35 +1,43 @@
 # Datasets
 
-Two fictional files power the agent. Replace them with the interview sample files when they arrive.
+The agent always needs **two** files: business metrics and business events.
 
-## metrics.csv
+## Synthetic files (do not overwrite)
 
-One row per period / metric / segment.
+These stay in place so the app works before the interview files arrive.
 
-| column | required | notes |
+- `metrics.csv`
+- `events.csv`
+
+Regenerate them with `python data/generate_data.py`.
+
+## Interview-day files
+
+Do **not** replace the synthetic CSVs. Load the files they give you in one of these ways:
+
+1. Streamlit / Gradio sidebar: paste the folder path, or upload the two files
+2. Copy the two files into `data/interview/`
+3. Set `FINAGENT_DATA_DIR` or `FINAGENT_METRICS_PATH` + `FINAGENT_EVENTS_PATH`
+
+Uploads go to `data/uploads/`. The active choice is stored in `data/active.json`.
+**Restore synthetic data** switches back without deleting the interview files.
+
+## Expected shapes
+
+### metrics (long form)
+
+| column | required | aliases |
 | --- | --- | --- |
-| period | yes | `YYYY-MM` or a parseable date |
-| metric_name | yes | aliases: `metric`, `kpi`, `name` |
-| metric_value | yes | aliases: `value`, `amount` |
+| period | yes | `month`, `date`, `as_of` |
+| metric_name | yes | `metric`, `kpi`, `name` |
+| metric_value | yes | `value`, `amount` |
 | segment | no | defaults to `Company` |
-| unit | no | `USD`, `percent`, `count` |
-| metric_kind | no | `flow` sums; `stock`/`rate` take last month |
-| fiscal_year / fiscal_quarter | no | derived from period if omitted |
 
-## events.csv
+A **wide** table (one column per KPI plus a date column) is accepted and melted.
 
-One row per business event.
+### events
 
-| column | required | notes |
+| column | required | aliases |
 | --- | --- | --- |
-| date | yes | aliases: `event_date`, `occurred_at` |
-| title or description | yes | used for search |
-| event_type | no | `product_launch`, `outage`, `competitor`, … |
-| impact_area | no | metric names the event may have touched |
-| severity / segment | no | |
-
-Regenerate the synthetic files with:
-
-```bash
-python data/generate_data.py
-```
+| date | yes | `event_date`, `occurred_at` |
+| title or description | yes | `name`, `details` |

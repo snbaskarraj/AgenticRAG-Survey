@@ -9,3 +9,9 @@ __pycache__/
 *.pyc
 .DS_Store
 .vscode/*.log
+data/active.json
+data/uploads/*
+!data/uploads/.gitkeep
+data/interview/*
+!data/interview/.gitkeep
+!data/interview/README.md

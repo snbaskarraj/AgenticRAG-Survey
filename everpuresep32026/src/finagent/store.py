@@ -11,7 +11,7 @@ from typing import Any
 
 import pandas as pd
 
-from . import config
+from .datasets import DatasetRef, resolve_datasets
 from .fiscal import (
     fiscal_label,
     fiscal_quarter,
@@ -82,32 +82,63 @@ def _read_table(path: Path) -> pd.DataFrame:
     raise ValueError(f"Unsupported dataset format: {path}")
 
 
-def _find_file(data_dir: Path, stem: str) -> Path:
-    for suffix in (".csv", ".json", ".jsonl", ".xlsx", ".xls", ".parquet"):
-        candidate = data_dir / f"{stem}{suffix}"
-        if candidate.exists():
-            return candidate
-    matches = sorted(data_dir.glob(f"*{stem}*.csv"))
-    if matches:
-        return matches[0]
-    raise FileNotFoundError(
-        f"Could not find a {stem} dataset in {data_dir}. "
-        "Place metrics.csv and events.csv there, or set FINAGENT_DATA_DIR."
+def _maybe_melt_wide_metrics(df: pd.DataFrame) -> pd.DataFrame:
+    """If the interview file is wide (one column per KPI), melt it to long form."""
+    if {"metric_name", "metric_value"}.issubset(df.columns):
+        return df
+    date_candidates = [c for c in df.columns if c in {"period", "date", "month", "as_of"}]
+    if not date_candidates:
+        return df
+    id_cols = [c for c in df.columns if c in {
+        "period", "date", "month", "as_of", "fiscal_year", "fiscal_quarter",
+        "fiscal_period", "segment", "unit",
+    }]
+    value_cols = [
+        c for c in df.columns
+        if c not in id_cols and pd.api.types.is_numeric_dtype(df[c])
+    ]
+    if len(value_cols) < 2:
+        return df
+    return df.melt(
+        id_vars=id_cols,
+        value_vars=value_cols,
+        var_name="metric_name",
+        value_name="metric_value",
     )
 
 
 class DataStore:
-    def __init__(self, data_dir: str | Path | None = None) -> None:
-        self.data_dir = Path(data_dir) if data_dir else config.data_dir()
-        self.metrics = self._load_metrics(_find_file(self.data_dir, "metrics"))
-        self.events = self._load_events(_find_file(self.data_dir, "events"))
+    def __init__(
+        self,
+        data_dir: str | Path | None = None,
+        metrics_path: str | Path | None = None,
+        events_path: str | Path | None = None,
+    ) -> None:
+        self.ref: DatasetRef = resolve_datasets(
+            data_dir=data_dir,
+            metrics_path=metrics_path,
+            events_path=events_path,
+        )
+        self.data_dir = self.ref.folder or self.ref.metrics_path.parent
+        self.metrics_path = self.ref.metrics_path
+        self.events_path = self.ref.events_path
+        self.source = self.ref.source
+        self.metrics = self._load_metrics(self.metrics_path)
+        self.events = self._load_events(self.events_path)
 
     def _load_metrics(self, path: Path) -> pd.DataFrame:
         df = _rename_columns(_read_table(path), METRIC_ALIASES)
+        df = _maybe_melt_wide_metrics(df)
+        df = _rename_columns(df, METRIC_ALIASES)
         required = {"period", "metric_name", "metric_value"}
         missing = required - set(df.columns)
         if missing:
-            raise ValueError(f"{path} is missing required columns: {sorted(missing)}")
+            raise ValueError(
+                f"{path} is missing required columns: {sorted(missing)}. "
+                f"Found columns: {list(df.columns)}. "
+                "Need a date/period column plus metric name and value "
+                "(or a wide table with one column per KPI)."
+            )
 
         df["period"] = df["period"].map(period_label)
         df["period_date"] = pd.to_datetime(df["period"] + "-01")
@@ -179,7 +210,10 @@ class DataStore:
             .to_dict(orient="records")
         )
         return {
-            "company": "AetherData (fictional)",
+            "source": self.source,
+            "metrics_path": str(self.metrics_path),
+            "events_path": str(self.events_path),
+            "company": "supplied datasets" if self.source != "synthetic" else "AetherData (synthetic)",
             "fiscal_calendar": "February–January; Q1 = Feb–Apr",
             "metrics_period_range": [
                 self.metrics["period"].min(),
@@ -321,6 +355,9 @@ class DataStore:
         if name in available:
             return name
         compact = name.lower().replace(" ", "_")
+        lower_map = {item.lower(): item for item in available}
+        if compact in lower_map:
+            return lower_map[compact]
         synonyms = {
             "revenue": "revenue_usd",
             "sales": "revenue_usd",
