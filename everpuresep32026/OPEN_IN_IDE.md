@@ -48,3 +48,6 @@ UIs:
 On interview day, keep the synthetic files. In the Streamlit sidebar (or
 Gradio top panel) paste the folder they give you, or upload the two files.
 **Restore synthetic data** switches back. Details: `data/interview/README.md`.
+
+**Google Colab:** download `Everpure_Colab_Upload.ipynb` from this folder,
+upload it at colab.research.google.com, then Runtime → Run all.

@@ -40,8 +40,9 @@ everpuresep32026/                      ← open this in Cursor / VS Code
 │   ├── SETUP.md
 │   ├── SDLC.md
 │   └── EMAIL_RECEIPT.md
+├── Everpure_Colab_Upload.ipynb        ← download and upload to Colab
 └── notebooks/
-    └── Everpure_Agentic_Finance_Agent.ipynb
+    └── Everpure_Colab_Upload.ipynb
 ```
 
 | Requirement | Where it lives |
