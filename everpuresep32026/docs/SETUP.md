@@ -79,14 +79,16 @@ python3 ask.py "Why did win rate drop in Q4 FY2025?" --show-traces
 
 ## 4. Google Colab path
 
-1. Open `notebooks/Everpure_Agentic_Finance_Agent.ipynb` in Colab
-2. Runtime → Run all
-3. The notebook restates the exercise, SDLC, architecture diagrams,
-   design decisions, Pandas analysis, tool calls, an optional OpenAI
-   cell, a LangGraph-style loop, and a live **Gradio** chat
+Download **`Everpure_Colab_Upload.ipynb`** from this folder (also under
+`notebooks/`).
 
-Upload `data/metrics.csv` and `data/events.csv` into the notebook folder
-if you are not cloning the repo.
+1. [colab.research.google.com](https://colab.research.google.com) → **Upload notebook**
+2. Runtime → **Run all**
+3. Ask *What was the revenue in Q1 FY2026?* in the Gradio cell ($118.0M on synthetic)
+4. On interview day, run the **Interview-day files** upload cell and pick the two files they give you
+
+The notebook clones this repo if you uploaded only the `.ipynb`. Synthetic
+CSVs stay intact. Streamlit remains the Cursor UI.
 
 ## 5. Interview-day files (keep the synthetic CSVs)
 

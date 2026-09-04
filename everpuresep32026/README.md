@@ -69,10 +69,12 @@ Read **[docs/SETUP.md](docs/SETUP.md)** for the full runbook.
 # open http://localhost:7860
 ```
 
-**Google Colab (diagrams + multiple frameworks)**
+**Google Colab (download this file and upload it)**
 
-Open [`notebooks/Everpure_Agentic_Finance_Agent.ipynb`](notebooks/Everpure_Agentic_Finance_Agent.ipynb)
-and Runtime → Run all.
+Download [`Everpure_Colab_Upload.ipynb`](Everpure_Colab_Upload.ipynb)
+→ Colab → **Upload notebook** → Runtime → **Run all**.
+
+A second copy lives at [`notebooks/Everpure_Colab_Upload.ipynb`](notebooks/Everpure_Colab_Upload.ipynb).
 
 Do not execute `.vscode/launch.json` in a terminal. Use **Run and Debug**.
 
