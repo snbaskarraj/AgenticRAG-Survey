@@ -1,6 +1,6 @@
 # Agentic Retrieval-Augmented Generation : A Survey On Agentic RAG
 
-> **Hands-on app:** [`everpuresep32026/`](./everpuresep32026/README.md). Cursor: `./run.sh` (Streamlit, http://localhost:8501). Alternate UI: `./run_gradio.sh` (http://localhost:7860). Walkthrough: [`everpuresep32026/notebooks/Everpure_Agentic_Finance_Agent.ipynb`](./everpuresep32026/notebooks/Everpure_Agentic_Finance_Agent.ipynb). Setup: [`docs/SETUP.md`](./everpuresep32026/docs/SETUP.md).
+> **Open in IDE:** File → Open Folder → [`everpuresep32026/`](./everpuresep32026/) **or** File → Open Workspace from File → [`everpuresep32026.code-workspace`](./everpuresep32026.code-workspace). Then Run and Debug → **Everpure Finance Agent (Streamlit)**. See [`everpuresep32026/OPEN_IN_IDE.md`](./everpuresep32026/OPEN_IN_IDE.md).
 
 
 <p align="center">

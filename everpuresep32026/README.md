@@ -3,6 +3,45 @@
 Conversational agent for the Everpure hands-on exercise. It answers
 questions about two fictional datasets and stays grounded in those files.
 
+**Open this folder in the IDE** (`File → Open Folder → everpuresep32026`)
+or open `Everpure-Finance-Agent.code-workspace`. See [OPEN_IN_IDE.md](OPEN_IN_IDE.md).
+
+## Project structure
+
+```text
+everpuresep32026/                      ← open this in Cursor / VS Code
+├── Everpure-Finance-Agent.code-workspace
+├── .vscode/                           ← launch, tasks, Python path
+│   ├── launch.json
+│   ├── tasks.json
+│   ├── settings.json
+│   └── extensions.json
+├── app.py                             ← Streamlit chat UI (Cursor default)
+├── gradio_app.py                      ← Gradio chat UI
+├── ask.py                             ← CLI
+├── run.sh                             ← start Streamlit :8501
+├── run_gradio.sh                      ← start Gradio :7860
+├── requirements.txt
+├── pyproject.toml
+├── data/
+│   ├── metrics.csv                    ← business metrics
+│   ├── events.csv                     ← business events
+│   └── generate_data.py
+├── src/finagent/                      ← LLM backend + data tools
+│   ├── agent.py
+│   ├── tools.py
+│   ├── store.py
+│   ├── schemas.py
+│   └── fallback.py
+├── tests/
+├── docs/
+│   ├── SETUP.md
+│   ├── SDLC.md
+│   └── EMAIL_RECEIPT.md
+└── notebooks/
+    └── Everpure_Agentic_Finance_Agent.ipynb
+```
+
 | Requirement | Where it lives |
 | --- | --- |
 | Simple chat UI | Streamlit (`app.py`) in Cursor · Gradio (`gradio_app.py`) in Colab |

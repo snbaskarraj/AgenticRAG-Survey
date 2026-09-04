@@ -1,0 +1,26 @@
+[project]
+name = "everpure-finance-agent"
+version = "1.0.0"
+description = "Everpure hands-on agentic finance analyst over metrics and events."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "streamlit>=1.36.0",
+  "gradio>=4.44.0",
+  "pandas>=2.2.0",
+  "numpy>=1.26.0",
+  "pydantic>=2.6.0",
+  "python-dotenv>=1.0.1",
+  "openai>=1.40.0",
+  "anthropic>=0.34.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.2.0"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

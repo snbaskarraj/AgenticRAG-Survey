@@ -1,5 +1,8 @@
 # How to execute the whole setup
 
+First open the project in the IDE: **File → Open Folder → `everpuresep32026`**
+(or open `Everpure-Finance-Agent.code-workspace`). Details: [OPEN_IN_IDE.md](../OPEN_IN_IDE.md).
+
 Two ways to run the same agent:
 
 | Path | UI | Best for |

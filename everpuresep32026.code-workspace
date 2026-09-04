@@ -1,26 +1,26 @@
 {
   "folders": [
     {
-      "name": "everpuresep32026",
+      "name": "Everpure Finance Agent",
       "path": "everpuresep32026"
     }
   ],
   "settings": {
     "python.defaultInterpreterPath": "python3",
-    "python.analysis.extraPaths": ["everpuresep32026/src"]
+    "python.analysis.extraPaths": ["${workspaceFolder}/src"],
+    "python.autoComplete.extraPaths": ["${workspaceFolder}/src"],
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": ["tests"],
+    "files.exclude": {
+      "**/__pycache__": true,
+      "**/.pytest_cache": true
+    }
   },
-  "launch": {
-    "version": "0.2.0",
-    "configurations": [
-      {
-        "name": "Everpure Finance Agent",
-        "type": "debugpy",
-        "request": "launch",
-        "module": "streamlit",
-        "args": ["run", "app.py", "--server.headless", "true", "--server.port", "8501"],
-        "cwd": "${workspaceFolder}",
-        "console": "integratedTerminal"
-      }
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "ms-python.debugpy",
+      "ms-toolsai.jupyter"
     ]
   }
 }

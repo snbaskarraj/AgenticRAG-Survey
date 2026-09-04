@@ -1,0 +1,76 @@
+{
+  "folders": [
+    {
+      "name": "Everpure Finance Agent",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "python3",
+    "python.analysis.extraPaths": ["${workspaceFolder}/src"],
+    "python.autoComplete.extraPaths": ["${workspaceFolder}/src"],
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": ["tests"],
+    "files.exclude": {
+      "**/__pycache__": true,
+      "**/.pytest_cache": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "ms-python.debugpy",
+      "ms-toolsai.jupyter"
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Everpure Finance Agent (Streamlit)",
+        "type": "debugpy",
+        "request": "launch",
+        "module": "streamlit",
+        "args": ["run", "app.py", "--server.headless", "true", "--server.port", "8501"],
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal",
+        "env": { "PYTHONPATH": "${workspaceFolder}/src" }
+      },
+      {
+        "name": "Everpure Finance Agent (Gradio)",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/gradio_app.py",
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal",
+        "env": { "PYTHONPATH": "${workspaceFolder}/src" }
+      }
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Streamlit chat",
+        "type": "shell",
+        "command": "./run.sh",
+        "options": { "cwd": "${workspaceFolder}" },
+        "problemMatcher": []
+      },
+      {
+        "label": "Run Gradio chat",
+        "type": "shell",
+        "command": "./run_gradio.sh",
+        "options": { "cwd": "${workspaceFolder}" },
+        "problemMatcher": []
+      },
+      {
+        "label": "Run tests",
+        "type": "shell",
+        "command": "python3 -m pytest -q",
+        "options": { "cwd": "${workspaceFolder}" },
+        "problemMatcher": []
+      }
+    ]
+  }
+}
